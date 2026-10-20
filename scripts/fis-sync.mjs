@@ -25,22 +25,28 @@ const PLACE_ALIAS = {"val gardena groeden":"groeden","val gardena":"groeden","ga
 
 /* ---------- http ---------- */
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-async function get(url, tries = 4){
+let failures = 0;
+async function get(url, tries = 6){
   for(let i = 0; i < tries; i++){
+    let wait = 2000 * (i + 1);
     try{
       const res = await fetch(url, {headers:{"user-agent":"ski-tippspiel/1.0 (private friends game; daily sync)","accept-language":"en"}});
       if(res.ok) return await res.text();
       if(res.status === 404) return null;
+      if(res.status === 429) wait = 15000 * (i + 1);     // FIS drosselt: lange warten
       console.warn(`HTTP ${res.status} ${url}`);
     }catch(e){ console.warn(`fetch failed ${url}: ${e.message}`); }
-    await sleep(1500 * (i + 1));
+    await sleep(wait);
   }
-  throw new Error("Giving up on " + url);
+  failures++;
+  console.warn("Giving up on " + url);
+  if(failures > 25) throw new Error("Zu viele Fehler bei FIS, Abbruch.");
+  return null;
 }
 async function pool(items, n, fn){
   const out = []; let i = 0;
   await Promise.all(Array.from({length:n}, async () => {
-    while(i < items.length){ const k = i++; out[k] = await fn(items[k], k); await sleep(250); }
+    while(i < items.length){ const k = i++; out[k] = await fn(items[k], k); await sleep(700); }
   }));
   return out;
 }
@@ -89,22 +95,25 @@ async function eventRaces(eventId){
     const row = $(a).closest(".table-row").length ? $(a).closest(".table-row") : $(a).parent();
     const text = clean(row.text());
     const time = (text.match(/\b([01]?\d|2[0-3]):([0-5]\d)\b/) || [])[0] || null;
-    out.set(id, {raceid:id, eventId, time, cancelled:/cancel/i.test(text), rowText: DEBUG ? text : undefined});
+    out.set(id, {raceid:id, eventId, time, cancelled:/cancel/i.test(text)});
+    if(DEBUG && !eventRaces.shown){ eventRaces.shown = true; console.log("first event row:", text); }
   });
-  if(DEBUG) console.log(`event ${eventId}:`, [...out.values()]);
+  if(DEBUG) console.log(`event ${eventId}: ${out.size} races`);
   return [...out.values()];
 }
 async function raceDetails(raceid){
   const html = await get(`${BASE}/general/results.html?sectorcode=AL&raceid=${raceid}`);
   if(!html) return null;
   const $ = load(html);
-  const head = clean($(".event-header__name").text() || $("h1").first().text());
+  const head = clean($(".event-header__name h1").first().text() || $("h1").first().text());
   const kind = clean($(".event-header__kind").text());
   const sub = clean($(".event-header__subtitle").text());
   const pm = head.match(/^(.*?)\s*\(([A-Z]{3})\)/);
   const place = pm ? clean(pm[1]) : head;
   const nation = pm ? pm[2] : null;
-  const date = parseDate($(".date__full").first().text()) || parseDate($(".event-header").text()) || parseDate($("body").text().slice(0, 4000));
+  const tzd = $(".event-header__date .timezone-date").first();
+  const iso = tzd.attr("data-iso-date") || null;
+  const date = tzd.attr("data-date") || parseDate($(".date__full").first().text()) || parseDate($(".event-header").text()) || parseDate($("body").text().slice(0, 4000));
   const gender = /\b(men|man)'?s?\b/i.test(kind) && !/women|ladies/i.test(kind) ? "M" : /women|ladies/i.test(kind) ? "W" : null;
   const disc = (DISC.find(([re]) => re.test(kind)) || [])[1] || null;
   const wm = /championships/i.test(sub + " " + kind);
@@ -118,10 +127,12 @@ async function raceDetails(raceid){
     const rank = Number((cells.find(c => /^\d+$/.test(c)) ?? "").trim()) || null;
     const nat = clean(row.find(".country__name-short").first().text()) || null;
     res.push([rank, niceName(name), nat]);
+    if(DEBUG && !raceDetails.shown){ raceDetails.shown = true; console.log("first result row:", cells, name, nat, $.html(a).slice(0, 2500)); }
   });
   const finishers = res.filter(r => r[0]).sort((a,b) => a[0] - b[0]);
-  if(DEBUG || (!finishers.length && !kind)) console.log(`race ${raceid}: head="${head}" kind="${kind}" sub="${sub}" date=${date} rows=${res.length}`, finishers.length ? "" : html.slice(html.indexOf("event-header"), html.indexOf("event-header") + 1500));
-  return {raceid, place, nation, date, gender, disc, wm, kind, results: finishers};
+  if(DEBUG) console.log(`race ${raceid}: place="${place}" ${nation} kind="${kind}" sub="${sub}" date=${date} iso=${iso} rows=${res.length} finishers=${finishers.length}`);
+  if(!kind) console.log(`race ${raceid}: Kopfzeile nicht erkannt`, html.slice(0, 800));
+  return {raceid, place, nation, date, iso, gender, disc, wm, kind, results: finishers};
 }
 
 /* ---------- cache ---------- */
@@ -131,9 +142,9 @@ async function writeJson(p, v, pretty){ await fs.mkdir(path.dirname(p), {recursi
 async function seasonRaces(season, {refresh}){
   const cats = ["WC", "WSC"];
   const events = (await Promise.all(cats.map(c => eventIds(season, c)))).flat();
-  const raceStubs = (await pool([...new Set(events)], 3, eventRaces)).flat();
+  const raceStubs = (await pool([...new Set(events)], 2, eventRaces)).flat();
   const today = new Date().toISOString().slice(0, 10);
-  return (await pool(raceStubs, 4, async stub => {
+  return (await pool(raceStubs, 2, async stub => {
     const cp = path.join(CACHE, "races", `${stub.raceid}.json`);
     let r = await readJson(cp, null);
     const stale = !r || (refresh && (!r.results.length || !r.date || r.date >= addDays(today, -3)));
@@ -175,10 +186,11 @@ async function main(){
     const id = String(r.raceid);
     const seedKey = `${r.gender}-${r.date}-${r.disc}${r.wm ? "-WM" : ""}`;
     const tz = TZ_BY_PLACE[placeKey(r.place).replace(/-/g," ")] || TZ_BY_NATION[r.nation] || "Europe/Zurich";
-    const start = seeds[seedKey] && !r.time ? seeds[seedKey] : zonedToUtc(r.date, r.time || "10:00", tz);
+    // FIS liefert im Rennkopf Datum, Ortszeit und Zeitzone (data-iso-date)
+    const start = r.iso ? new Date(r.iso).toISOString() : seeds[seedKey] || zonedToUtc(r.date, r.time || "10:00", tz);
     const podium = r.results.length >= 3 ? [1,2,3].map(p => r.results.filter(x => x[0] === p).map(x => x[1]).join(" / ") || null) : null;
     const race = {id, raceid:r.raceid, gender:r.gender, disc:r.disc, place:r.place, nation:r.nation, date:r.date, start,
-      timeKnown: !!r.time || !!seeds[seedKey], wm:r.wm, venue:`${r.gender}-${r.disc}-${placeKey(r.place)}`,
+      timeKnown: !!r.iso || !!r.time, wm:r.wm, venue:`${r.gender}-${r.disc}-${placeKey(r.place)}`,
       status: r.cancelled ? "cancelled" : podium && podium.every(Boolean) ? "done" : "scheduled",
       podium: podium && podium.every(Boolean) ? podium : null,
       podiumNat: podium ? [1,2,3].map(p => (r.results.find(x => x[0] === p) || [])[2] || null) : null};
