@@ -115,7 +115,7 @@ async function raceDetails(raceid){
   const iso = tzd.attr("data-iso-date") || null;
   const date = tzd.attr("data-date") || parseDate($(".date__full").first().text()) || parseDate($(".event-header").text()) || parseDate($("body").text().slice(0, 4000));
   const gender = /\b(men|man)'?s?\b/i.test(kind) && !/women|ladies/i.test(kind) ? "M" : /women|ladies/i.test(kind) ? "W" : null;
-  const disc = /training/i.test(kind) ? null : (DISC.find(([re]) => re.test(kind)) || [])[1] || null;
+  const disc = /training|qualif/i.test(kind) ? null : (DISC.find(([re]) => re.test(kind)) || [])[1] || null;
   const wm = /championships/i.test(sub + " " + kind);
   const res = [];
   $("a.table-row").each((_, a) => {
@@ -148,10 +148,13 @@ async function seasonRaces(season, {refresh}){
   return (await pool(raceStubs, 2, async stub => {
     const cp = path.join(CACHE, "races", `${stub.raceid}.json`);
     let r = await readJson(cp, null);
-    const stale = !r || (refresh && (!r.results.length || !r.date || r.date >= addDays(today, -3)));
+    // Neu laden: fehlt, Rennen rund um heute ohne fertiges Resultat, oder Zukunftsrennen älter als 1 Tag im Cache
+    const near = r?.date && r.date >= addDays(today, -3) && r.date <= addDays(today, 7);
+    const old = !r?.fetchedAt || Date.now() - Date.parse(r.fetchedAt) > 20 * 36e5;
+    const stale = !r || (refresh && (near || (old && !(r.results || []).length)));
     if(stale){
       const fresh = await raceDetails(stub.raceid);
-      if(fresh){ r = fresh; if(r.date && r.date < addDays(today, -3) && r.results.length) await writeJson(cp, r); }
+      if(fresh){ r = {...fresh, fetchedAt:new Date().toISOString()}; await writeJson(cp, r); }
     }
     return r ? {...r, time: stub.time, cancelled: stub.cancelled && !(r.results || []).length} : null;
   })).filter(r => r && r.gender && r.disc && r.date);
@@ -198,7 +201,7 @@ async function main(){
     const start = r.iso ? new Date(r.iso).toISOString() : seeds[seedKey] || zonedToUtc(r.date, r.time || "10:00", tz);
     const podium = r.results.length >= 3 ? [1,2,3].map(p => r.results.filter(x => x[0] === p).map(x => x[1]).join(" / ") || null) : null;
     const race = {id, raceid:r.raceid, gender:r.gender, disc:r.disc, place:r.place, nation:r.nation, date:r.date, start,
-      timeKnown: !!r.iso || !!r.time, wm:r.wm, venue:`${r.gender}-${r.disc}-${placeKey(r.place)}`,
+      timeKnown: !!r.iso || !!r.time, wm:r.wm, kind:r.kind, venue:`${r.gender}-${r.disc}-${placeKey(r.place)}`,
       status: r.cancelled ? "cancelled" : podium && podium.every(Boolean) ? "done" : "scheduled",
       podium: podium && podium.every(Boolean) ? podium : null,
       podiumNat: podium ? [1,2,3].map(p => (r.results.find(x => x[0] === p) || [])[2] || null) : null};

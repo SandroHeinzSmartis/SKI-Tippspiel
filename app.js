@@ -17,6 +17,12 @@ const IOC2ISO = {SUI:"CH",AUT:"AT",ITA:"IT",FRA:"FR",GER:"DE",NOR:"NO",SWE:"SE",
   FIN:"FI",AND:"AD",BRA:"BR",GBR:"GB",NZL:"NZ",AUS:"AU",ESP:"ES",BEL:"BE",NED:"NL",ALB:"AL",LAT:"LV",BUL:"BG",MON:"MC",JPN:"JP",KOR:"KR",
   CHN:"CN",ARG:"AR",CHI:"CL",LIE:"LI",GRE:"GR",HUN:"HU",ISL:"IS",DEN:"DK",EST:"EE",UKR:"UA",BIH:"BA",MNE:"ME",SRB:"RS",ROU:"RO",TUR:"TR",
   ISR:"IL",IRL:"IE",LUX:"LU",POR:"PT",MEX:"MX",KAZ:"KZ",LTU:"LT",GEO:"GE",ARM:"AM",IRI:"IR",IND:"IN",RUS:"RU"};
+// FIS schreibt Orte ohne Sonderzeichen; für die Anzeige die gewohnten Namen
+const PLACE_NAMES = {"Soelden":"Sölden","Kitzbuehel":"Kitzbühel","Are":"Åre","Jasna":"Jasná","Val d'Isere":"Val d'Isère","Val Gardena-Groeden":"Gröden",
+  "Val Gardena/Groeden":"Gröden","Copper Mountain, CO":"Copper Mountain","Beaver Creek, CO":"Beaver Creek","Dachstein West / Gosau":"Gosau",
+  "Crans Montana":"Crans-Montana","Lake Louise":"Lake Louise","Garmisch Partenkirchen":"Garmisch-Partenkirchen","Saalbach-Hinterglemm":"Saalbach",
+  "Semmering":"Semmering","Zauchensee":"Zauchensee","Spindleruv Mlyn":"Špindlerův Mlýn","Courchevel":"Courchevel","Meribel":"Méribel"};
+const placeName = p => PLACE_NAMES[p] || p;
 const flag = ioc => { const c = IOC2ISO[ioc]; return c ? String.fromCodePoint(...[...c].map(ch => 0x1F1E6 + ch.charCodeAt(0) - 65)) : ""; };
 
 /* ---------- helpers ---------- */
@@ -183,7 +189,7 @@ function heroView(){
       <button data-gender="W" aria-pressed="${S.gender === "W"}">Damen</button><button data-gender="M" aria-pressed="${S.gender === "M"}">Herren</button></div>
     <div class="next">${nx ? `
       <div class="next-label">Nächstes Rennen · ${GEN[nx.gender]}</div>
-      <div class="next-title">${esc(nx.place)} · ${DISC[nx.disc]}</div>
+      <div class="next-title">${esc(placeName(nx.place))} · ${DISC[nx.disc]}</div>
       <div class="next-meta">${fmtLong(nx.start)}, ${fmtTime(nx.start)} Uhr${nx.wm ? " · WM zählt doppelt" : ""}</div>
       <div class="countdown" data-until="${nx.start}"></div>
       <button class="next-cta ${mine ? "done" : ""}" data-race="${nx.id}">${mine ? "Tipp ansehen" : "Jetzt tippen"} →</button>`
@@ -245,7 +251,7 @@ function raceRow(r, isNext){
     <span class="gate">${gateIcon(r.disc)}</span>
     <button class="race-card" data-race="${r.id}">
       <span class="r-date"><b>${fmtDay(r.start)}</b><span>${fmtWd(r.start)}</span></span>
-      <span class="r-main"><span class="r-place">${esc(r.place)}</span>
+      <span class="r-main"><span class="r-place">${esc(placeName(r.place))}</span>
         <span class="r-meta">${DISC[r.disc]} ${flag(r.nation)}${r.wm ? ` <span class="tag wm">WM ×2</span>` : ""}${r.timeKnown === false ? ` <span class="tag est">Zeit offen</span>` : ""}</span>
         ${r.status === "done" ? `<span class="mini-podium">${r.podium.map((n,i) => `<span><span class="medal m${i+1}">${i+1}</span>${esc(n)}</span>`).join("")}</span>` : ""}
       </span>${state}
@@ -365,7 +371,7 @@ async function openTip(kind, key){
   const mine = tipOf(myId(), kind, key);
   const draft = mine ? [...mine.picks] : [null, null, null];
   const result = race ? (race.status === "done" ? race.podium : null) : cupFinal(key);
-  const title = race ? `${esc(race.place)} ${flag(race.nation)}` : (d === "OVR" ? "Gesamtweltcup" : `${DISC[d]}-Weltcup`);
+  const title = race ? `${esc(placeName(race.place))} ${flag(race.nation)}` : (d === "OVR" ? "Gesamtweltcup" : `${DISC[d]}-Weltcup`);
   const sub = race ? `${DISC[d]} ${GEN[g]} · ${fmtLong(race.start)}, ${fmtTime(race.start)} Uhr${race.wm ? " · WM ×2" : ""}`
                    : `${GEN[g]} · ${deadline ? `Tippschluss ${fmtLong(deadline)}, ${fmtTime(deadline)}` : "noch kein Rennen im Kalender"}`;
   const w = race ? SCORE.race : d === "OVR" ? SCORE.overall : SCORE.disc;
@@ -435,7 +441,7 @@ function openPicker({g, d, race, draft, slot, onPick}){
   const extra = allAthletes(g);
   const label = d === "OVR" ? "Gesamtweltcup" : DISC[d];
   const src = list.some(a => a.src === "cur") ? `Stand ${label}-Weltcup 26/27` : `Top 30 ${label} Saison 25/26`;
-  const sheet = openSheet(head(`Platz ${slot + 1} wählen`, `${src}${race ? ` · tippe auf einen Namen für die Historie in ${esc(race.place)}` : ""}`) +
+  const sheet = openSheet(head(`Platz ${slot + 1} wählen`, `${src}${race ? ` · tippe auf einen Namen für die Historie in ${esc(placeName(race.place))}` : ""}`) +
     `<div class="sheet-body"><div class="search"><input id="q" type="search" placeholder="Name suchen" autocomplete="off"></div><div id="ath-list"></div></div>`, {plain:true});
   const box = $("#ath-list", sheet.sh);
   let openName = null;
@@ -468,8 +474,8 @@ function openPicker({g, d, race, draft, slot, onPick}){
       if(openName !== name) return;
       const res = v.map(x => ({y:x.d.slice(0,4), wm:x.wm, hit:x.r.find(a => sameAthlete(a[1], name))})).filter(x => x.hit);
       hist = res.length ? `<div class="hist">${res.map(x => `<span class="res-chip ${x.hit[0] <= 3 ? "p" + x.hit[0] : ""}">${x.y}${x.wm ? " WM" : ""}: ${x.hit[0]}.</span>`).join("")}</div>
-          <p class="hint" style="margin:0 0 10px">${res.length} Resultate in ${esc(race.place)}, bestes: ${Math.min(...res.map(x => x.hit[0]))}.</p>`
-        : `<p class="hint">Noch kein Resultat in ${esc(race.place)} (${DISC[d]}) in den letzten 10 Jahren.</p>`;
+          <p class="hint" style="margin:0 0 10px">${res.length} Resultate in ${esc(placeName(race.place))}, bestes: ${Math.min(...res.map(x => x.hit[0]))}.</p>`
+        : `<p class="hint">Noch kein Resultat in ${esc(placeName(race.place))} (${DISC[d]}) in den letzten 10 Jahren.</p>`;
     }
     el.innerHTML = hist + `<div class="place-btns">${[0,1,2].map(i => `<button class="btn ${i === slot ? "red" : "ghost"}" data-set="${i}">Platz ${i+1}</button>`).join("")}</div>`;
     el.querySelectorAll("[data-set]").forEach(b => b.addEventListener("click", () => choose(name, +b.dataset.set)));
