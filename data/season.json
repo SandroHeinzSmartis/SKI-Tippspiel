@@ -1,0 +1,4988 @@
+{
+ "updated": "2026-10-20T07:37:09.044Z",
+ "season": 2027,
+ "races": [
+  {
+   "id": "131577",
+   "raceid": "131577",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Soelden",
+   "nation": "AUT",
+   "date": "2026-10-24",
+   "start": "2026-10-24T08:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-soelden",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131578",
+   "raceid": "131578",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Soelden",
+   "nation": "AUT",
+   "date": "2026-10-25",
+   "start": "2026-10-25T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-GS-soelden",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131579",
+   "raceid": "131579",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Levi",
+   "nation": "FIN",
+   "date": "2026-11-14",
+   "start": "2026-11-14T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SL-levi",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131580",
+   "raceid": "131580",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Levi",
+   "nation": "FIN",
+   "date": "2026-11-15",
+   "start": "2026-11-15T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-levi",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131581",
+   "raceid": "131581",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Gurgl",
+   "nation": "AUT",
+   "date": "2026-11-21",
+   "start": "2026-11-21T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SL-gurgl",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131582",
+   "raceid": "131582",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Gurgl",
+   "nation": "AUT",
+   "date": "2026-11-22",
+   "start": "2026-11-22T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-gurgl",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131583",
+   "raceid": "131583",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Killington",
+   "nation": "USA",
+   "date": "2026-11-28",
+   "start": "2026-11-28T14:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-killington",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131697",
+   "raceid": "131697",
+   "gender": "M",
+   "disc": "SG",
+   "place": "Copper Mountain, CO",
+   "nation": "USA",
+   "date": "2026-11-28",
+   "start": "2026-11-28T18:45:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SG-copper-mountain-co",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131584",
+   "raceid": "131584",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Killington",
+   "nation": "USA",
+   "date": "2026-11-29",
+   "start": "2026-11-29T15:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SL-killington",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131698",
+   "raceid": "131698",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Copper Mountain, CO",
+   "nation": "USA",
+   "date": "2026-11-29",
+   "start": "2026-11-29T17:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-GS-copper-mountain-co",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131702",
+   "raceid": "131702",
+   "gender": "M",
+   "disc": "DH",
+   "place": "Beaver Creek",
+   "nation": "USA",
+   "date": "2026-12-03",
+   "start": "2026-12-03T18:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-DH-beaver-creek",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131703",
+   "raceid": "131703",
+   "gender": "M",
+   "disc": "DH",
+   "place": "Beaver Creek",
+   "nation": "USA",
+   "date": "2026-12-04",
+   "start": "2026-12-04T18:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-DH-beaver-creek",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131704",
+   "raceid": "131704",
+   "gender": "M",
+   "disc": "SG",
+   "place": "Beaver Creek",
+   "nation": "USA",
+   "date": "2026-12-05",
+   "start": "2026-12-05T17:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SG-beaver-creek",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131597",
+   "raceid": "131597",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Tremblant",
+   "nation": "CAN",
+   "date": "2026-12-05",
+   "start": "2026-12-05T16:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-tremblant",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131705",
+   "raceid": "131705",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Beaver Creek",
+   "nation": "USA",
+   "date": "2026-12-06",
+   "start": "2026-12-06T17:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-GS-beaver-creek",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131598",
+   "raceid": "131598",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Tremblant",
+   "nation": "CAN",
+   "date": "2026-12-06",
+   "start": "2026-12-06T15:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-tremblant",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131601",
+   "raceid": "131601",
+   "gender": "W",
+   "disc": "DH",
+   "place": "Beaver Creek",
+   "nation": "USA",
+   "date": "2026-12-11",
+   "start": "2026-12-11T18:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-DH-beaver-creek",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131602",
+   "raceid": "131602",
+   "gender": "W",
+   "disc": "DH",
+   "place": "Beaver Creek",
+   "nation": "USA",
+   "date": "2026-12-12",
+   "start": "2026-12-12T17:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-DH-beaver-creek",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131706",
+   "raceid": "131706",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Val d'Isere",
+   "nation": "FRA",
+   "date": "2026-12-12",
+   "start": "2026-12-12T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-GS-val-d-isere",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131603",
+   "raceid": "131603",
+   "gender": "W",
+   "disc": "SG",
+   "place": "Beaver Creek",
+   "nation": "USA",
+   "date": "2026-12-13",
+   "start": "2026-12-13T18:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SG-beaver-creek",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131707",
+   "raceid": "131707",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Val d'Isere",
+   "nation": "FRA",
+   "date": "2026-12-13",
+   "start": "2026-12-13T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-val-d-isere",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131711",
+   "raceid": "131711",
+   "gender": "M",
+   "disc": "SG",
+   "place": "Val Gardena-Groeden",
+   "nation": "ITA",
+   "date": "2026-12-18",
+   "start": "2026-12-18T11:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SG-groeden",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131604",
+   "raceid": "131604",
+   "gender": "W",
+   "disc": "SG",
+   "place": "St. Moritz",
+   "nation": "SUI",
+   "date": "2026-12-18",
+   "start": "2026-12-18T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SG-st-moritz",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131712",
+   "raceid": "131712",
+   "gender": "M",
+   "disc": "DH",
+   "place": "Val Gardena-Groeden",
+   "nation": "ITA",
+   "date": "2026-12-19",
+   "start": "2026-12-19T11:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-DH-groeden",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131605",
+   "raceid": "131605",
+   "gender": "W",
+   "disc": "SG",
+   "place": "St. Moritz",
+   "nation": "SUI",
+   "date": "2026-12-19",
+   "start": "2026-12-19T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SG-st-moritz",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131606",
+   "raceid": "131606",
+   "gender": "W",
+   "disc": "GS",
+   "place": "St. Moritz",
+   "nation": "SUI",
+   "date": "2026-12-20",
+   "start": "2026-12-20T08:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-st-moritz",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131713",
+   "raceid": "131713",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Alta Badia",
+   "nation": "ITA",
+   "date": "2026-12-20",
+   "start": "2026-12-20T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-GS-alta-badia",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131714",
+   "raceid": "131714",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Alta Badia",
+   "nation": "ITA",
+   "date": "2026-12-21",
+   "start": "2026-12-21T16:45:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-alta-badia",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131607",
+   "raceid": "131607",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Courchevel",
+   "nation": "FRA",
+   "date": "2026-12-22",
+   "start": "2026-12-22T16:45:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SL-courchevel",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131715",
+   "raceid": "131715",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Madonna di Campiglio",
+   "nation": "ITA",
+   "date": "2026-12-23",
+   "start": "2026-12-23T16:45:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-madonna-di-campiglio",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131838",
+   "raceid": "131838",
+   "gender": "M",
+   "disc": "DH",
+   "place": "Bormio",
+   "nation": "ITA",
+   "date": "2026-12-28",
+   "start": "2026-12-28T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-DH-bormio",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131608",
+   "raceid": "131608",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Dachstein West / Gosau",
+   "nation": "AUT",
+   "date": "2026-12-28",
+   "start": "2026-12-28T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-dachstein-west-gosau",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131839",
+   "raceid": "131839",
+   "gender": "M",
+   "disc": "SG",
+   "place": "Bormio",
+   "nation": "ITA",
+   "date": "2026-12-29",
+   "start": "2026-12-29T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SG-bormio",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131609",
+   "raceid": "131609",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Dachstein West / Gosau",
+   "nation": "AUT",
+   "date": "2026-12-29",
+   "start": "2026-12-29T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SL-dachstein-west-gosau",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131716",
+   "raceid": "131716",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Kranjska Gora",
+   "nation": "SLO",
+   "date": "2027-01-02",
+   "start": "2027-01-02T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-GS-kranjska-gora",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131717",
+   "raceid": "131717",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Kranjska Gora",
+   "nation": "SLO",
+   "date": "2027-01-03",
+   "start": "2027-01-03T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-kranjska-gora",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131654",
+   "raceid": "131654",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Flachau",
+   "nation": "AUT",
+   "date": "2027-01-04",
+   "start": "2027-01-04T16:45:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-flachau",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131655",
+   "raceid": "131655",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Flachau",
+   "nation": "AUT",
+   "date": "2027-01-05",
+   "start": "2027-01-05T17:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SL-flachau",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131658",
+   "raceid": "131658",
+   "gender": "W",
+   "disc": "DH",
+   "place": "Val di Fassa",
+   "nation": "ITA",
+   "date": "2027-01-09",
+   "start": "2027-01-09T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-DH-val-di-fassa",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131718",
+   "raceid": "131718",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Adelboden",
+   "nation": "SUI",
+   "date": "2027-01-09",
+   "start": "2027-01-09T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-GS-adelboden",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131659",
+   "raceid": "131659",
+   "gender": "W",
+   "disc": "SG",
+   "place": "Val di Fassa",
+   "nation": "ITA",
+   "date": "2027-01-10",
+   "start": "2027-01-10T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SG-val-di-fassa",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131719",
+   "raceid": "131719",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Adelboden",
+   "nation": "SUI",
+   "date": "2027-01-10",
+   "start": "2027-01-10T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-adelboden",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131723",
+   "raceid": "131723",
+   "gender": "M",
+   "disc": "SG",
+   "place": "Wengen",
+   "nation": "SUI",
+   "date": "2027-01-15",
+   "start": "2027-01-15T11:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SG-wengen",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131664",
+   "raceid": "131664",
+   "gender": "W",
+   "disc": "DH",
+   "place": "Cortina d'Ampezzo",
+   "nation": "ITA",
+   "date": "2027-01-15",
+   "start": "2027-01-15T10:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-DH-cortina-d-ampezzo",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131724",
+   "raceid": "131724",
+   "gender": "M",
+   "disc": "DH",
+   "place": "Wengen",
+   "nation": "SUI",
+   "date": "2027-01-16",
+   "start": "2027-01-16T11:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-DH-wengen",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131665",
+   "raceid": "131665",
+   "gender": "W",
+   "disc": "DH",
+   "place": "Cortina d'Ampezzo",
+   "nation": "ITA",
+   "date": "2027-01-16",
+   "start": "2027-01-16T10:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-DH-cortina-d-ampezzo",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131725",
+   "raceid": "131725",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Wengen",
+   "nation": "SUI",
+   "date": "2027-01-17",
+   "start": "2027-01-17T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-wengen",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131666",
+   "raceid": "131666",
+   "gender": "W",
+   "disc": "SG",
+   "place": "Cortina d'Ampezzo",
+   "nation": "ITA",
+   "date": "2027-01-17",
+   "start": "2027-01-17T10:15:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SG-cortina-d-ampezzo",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131667",
+   "raceid": "131667",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Kronplatz",
+   "nation": "ITA",
+   "date": "2027-01-19",
+   "start": "2027-01-19T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-kronplatz",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131729",
+   "raceid": "131729",
+   "gender": "M",
+   "disc": "SG",
+   "place": "Kitzbuehel",
+   "nation": "AUT",
+   "date": "2027-01-22",
+   "start": "2027-01-22T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SG-kitzbuehel",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131730",
+   "raceid": "131730",
+   "gender": "M",
+   "disc": "DH",
+   "place": "Kitzbuehel",
+   "nation": "AUT",
+   "date": "2027-01-23",
+   "start": "2027-01-23T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-DH-kitzbuehel",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131668",
+   "raceid": "131668",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Jasna",
+   "nation": "SVK",
+   "date": "2027-01-23",
+   "start": "2027-01-23T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-jasna",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131731",
+   "raceid": "131731",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Kitzbuehel",
+   "nation": "AUT",
+   "date": "2027-01-24",
+   "start": "2027-01-24T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-kitzbuehel",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131866",
+   "raceid": "131866",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Jasna",
+   "nation": "SVK",
+   "date": "2027-01-24",
+   "start": "2027-01-24T08:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SL-jasna",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131732",
+   "raceid": "131732",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Schladming",
+   "nation": "AUT",
+   "date": "2027-01-26",
+   "start": "2027-01-26T16:45:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-GS-schladming",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131733",
+   "raceid": "131733",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Schladming",
+   "nation": "AUT",
+   "date": "2027-01-27",
+   "start": "2027-01-27T16:45:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-schladming",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131670",
+   "raceid": "131670",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Kranjska Gora",
+   "nation": "SLO",
+   "date": "2027-01-29",
+   "start": "2027-01-29T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-kranjska-gora",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131671",
+   "raceid": "131671",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Kranjska Gora",
+   "nation": "SLO",
+   "date": "2027-01-30",
+   "start": "2027-01-30T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SL-kranjska-gora",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131734",
+   "raceid": "131734",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Chamonix",
+   "nation": "FRA",
+   "date": "2027-01-30",
+   "start": "2027-01-30T08:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-chamonix",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131844",
+   "raceid": "131844",
+   "gender": "W",
+   "disc": "SG",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-04",
+   "start": "2027-02-04T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "W-SG-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131847",
+   "raceid": "131847",
+   "gender": "M",
+   "disc": "SG",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-05",
+   "start": "2027-02-05T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "M-SG-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131848",
+   "raceid": "131848",
+   "gender": "W",
+   "disc": "DH",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-06",
+   "start": "2027-02-06T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "W-DH-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131850",
+   "raceid": "131850",
+   "gender": "M",
+   "disc": "DH",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-07",
+   "start": "2027-02-07T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "M-DH-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131852",
+   "raceid": "131852",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-10",
+   "start": "2027-02-10T16:00:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "W-GS-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131854",
+   "raceid": "131854",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-11",
+   "start": "2027-02-11T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "W-GS-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131855",
+   "raceid": "131855",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-11",
+   "start": "2027-02-11T17:00:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "M-GS-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131857",
+   "raceid": "131857",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-12",
+   "start": "2027-02-12T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "M-GS-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131856",
+   "raceid": "131856",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-12",
+   "start": "2027-02-12T16:00:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "W-SL-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131858",
+   "raceid": "131858",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-13",
+   "start": "2027-02-13T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "W-SL-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131859",
+   "raceid": "131859",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-13",
+   "start": "2027-02-13T17:00:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "M-SL-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131860",
+   "raceid": "131860",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Crans Montana",
+   "nation": "SUI",
+   "date": "2027-02-14",
+   "start": "2027-02-14T09:00:00.000Z",
+   "timeKnown": true,
+   "wm": true,
+   "venue": "M-SL-crans-montana",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131737",
+   "raceid": "131737",
+   "gender": "M",
+   "disc": "DH",
+   "place": "Garmisch-Partenkirchen",
+   "nation": "GER",
+   "date": "2027-02-20",
+   "start": "2027-02-20T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-DH-garmisch-partenkirchen",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131672",
+   "raceid": "131672",
+   "gender": "W",
+   "disc": "SG",
+   "place": "Lenzerheide",
+   "nation": "SUI",
+   "date": "2027-02-20",
+   "start": "2027-02-20T11:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SG-lenzerheide",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131738",
+   "raceid": "131738",
+   "gender": "M",
+   "disc": "SG",
+   "place": "Garmisch-Partenkirchen",
+   "nation": "GER",
+   "date": "2027-02-21",
+   "start": "2027-02-21T09:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SG-garmisch-partenkirchen",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131673",
+   "raceid": "131673",
+   "gender": "W",
+   "disc": "SG",
+   "place": "Lenzerheide",
+   "nation": "SUI",
+   "date": "2027-02-21",
+   "start": "2027-02-21T11:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SG-lenzerheide",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131676",
+   "raceid": "131676",
+   "gender": "W",
+   "disc": "DH",
+   "place": "Garmisch-Partenkirchen",
+   "nation": "GER",
+   "date": "2027-02-27",
+   "start": "2027-02-27T09:15:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-DH-garmisch-partenkirchen",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131741",
+   "raceid": "131741",
+   "gender": "M",
+   "disc": "DH",
+   "place": "Saalbach",
+   "nation": "AUT",
+   "date": "2027-02-27",
+   "start": "2027-02-27T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-DH-saalbach",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131677",
+   "raceid": "131677",
+   "gender": "W",
+   "disc": "DH",
+   "place": "Garmisch-Partenkirchen",
+   "nation": "GER",
+   "date": "2027-02-28",
+   "start": "2027-02-28T09:15:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-DH-garmisch-partenkirchen",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131742",
+   "raceid": "131742",
+   "gender": "M",
+   "disc": "SG",
+   "place": "Saalbach",
+   "nation": "AUT",
+   "date": "2027-02-28",
+   "start": "2027-02-28T10:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SG-saalbach",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131746",
+   "raceid": "131746",
+   "gender": "M",
+   "disc": "DH",
+   "place": "Kvitfjell",
+   "nation": "NOR",
+   "date": "2027-03-06",
+   "start": "2027-03-06T10:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-DH-kvitfjell",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131678",
+   "raceid": "131678",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Soldeu",
+   "nation": "AND",
+   "date": "2027-03-06",
+   "start": "2027-03-06T08:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-soldeu",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131747",
+   "raceid": "131747",
+   "gender": "M",
+   "disc": "SG",
+   "place": "Kvitfjell",
+   "nation": "NOR",
+   "date": "2027-03-07",
+   "start": "2027-03-07T10:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SG-kvitfjell",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131679",
+   "raceid": "131679",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Soldeu",
+   "nation": "AND",
+   "date": "2027-03-07",
+   "start": "2027-03-07T08:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SL-soldeu",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131683",
+   "raceid": "131683",
+   "gender": "W",
+   "disc": "DH",
+   "place": "Narvik",
+   "nation": "TBC",
+   "date": "2027-03-12",
+   "start": "2027-03-12T10:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-DH-narvik",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131684",
+   "raceid": "131684",
+   "gender": "W",
+   "disc": "SG",
+   "place": "Narvik",
+   "nation": "TBC",
+   "date": "2027-03-13",
+   "start": "2027-03-13T10:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SG-narvik",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131748",
+   "raceid": "131748",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Are",
+   "nation": "SWE",
+   "date": "2027-03-13",
+   "start": "2027-03-13T08:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-GS-are",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131749",
+   "raceid": "131749",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Are",
+   "nation": "SWE",
+   "date": "2027-03-14",
+   "start": "2027-03-14T08:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-are",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131690",
+   "raceid": "131690",
+   "gender": "M",
+   "disc": "DH",
+   "place": "Sun Valley",
+   "nation": "USA",
+   "date": "2027-03-20",
+   "start": "2027-03-20T17:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-DH-sun-valley",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131689",
+   "raceid": "131689",
+   "gender": "W",
+   "disc": "DH",
+   "place": "Sun Valley",
+   "nation": "USA",
+   "date": "2027-03-20",
+   "start": "2027-03-20T18:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-DH-sun-valley",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131691",
+   "raceid": "131691",
+   "gender": "W",
+   "disc": "SG",
+   "place": "Sun Valley",
+   "nation": "USA",
+   "date": "2027-03-21",
+   "start": "2027-03-21T17:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SG-sun-valley",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131692",
+   "raceid": "131692",
+   "gender": "M",
+   "disc": "SG",
+   "place": "Sun Valley",
+   "nation": "USA",
+   "date": "2027-03-21",
+   "start": "2027-03-21T18:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SG-sun-valley",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131693",
+   "raceid": "131693",
+   "gender": "W",
+   "disc": "GS",
+   "place": "Sun Valley",
+   "nation": "USA",
+   "date": "2027-03-23",
+   "start": "2027-03-23T15:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-GS-sun-valley",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131694",
+   "raceid": "131694",
+   "gender": "M",
+   "disc": "GS",
+   "place": "Sun Valley",
+   "nation": "USA",
+   "date": "2027-03-24",
+   "start": "2027-03-24T15:30:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-GS-sun-valley",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131695",
+   "raceid": "131695",
+   "gender": "W",
+   "disc": "SL",
+   "place": "Sun Valley",
+   "nation": "USA",
+   "date": "2027-03-25",
+   "start": "2027-03-25T15:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "W-SL-sun-valley",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131696",
+   "raceid": "131696",
+   "gender": "M",
+   "disc": "SL",
+   "place": "Sun Valley",
+   "nation": "USA",
+   "date": "2027-03-25",
+   "start": "2027-03-25T16:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "venue": "M-SL-sun-valley",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  }
+ ],
+ "standings": {
+  "cur": {
+   "W": {},
+   "M": {}
+  },
+  "prev": {
+   "W": {
+    "GS": [
+     {
+      "name": "Julia Scheib",
+      "nat": "AUT",
+      "pts": 720
+     },
+     {
+      "name": "Camille Rast",
+      "nat": "SUI",
+      "pts": 511
+     },
+     {
+      "name": "Sara Hector",
+      "nat": "SWE",
+      "pts": 479
+     },
+     {
+      "name": "Mikaela Shiffrin",
+      "nat": "USA",
+      "pts": 422
+     },
+     {
+      "name": "Alice Robinson",
+      "nat": "NZL",
+      "pts": 408
+     },
+     {
+      "name": "Paula Moltzan",
+      "nat": "USA",
+      "pts": 398
+     },
+     {
+      "name": "Valerie Grenier",
+      "nat": "CAN",
+      "pts": 312
+     },
+     {
+      "name": "Thea Louise Stjernesund",
+      "nat": "NOR",
+      "pts": 272
+     },
+     {
+      "name": "Zrinka Ljutic",
+      "nat": "CRO",
+      "pts": 267
+     },
+     {
+      "name": "Nina O'Brien",
+      "nat": "USA",
+      "pts": 215
+     },
+     {
+      "name": "Lara Colturi",
+      "nat": "ALB",
+      "pts": 205
+     },
+     {
+      "name": "Lara Della Mea",
+      "nat": "ITA",
+      "pts": 203
+     },
+     {
+      "name": "Maryna Gasienica-Daniel",
+      "nat": "POL",
+      "pts": 189
+     },
+     {
+      "name": "Mina Fuerst Holtmann",
+      "nat": "NOR",
+      "pts": 184
+     },
+     {
+      "name": "Britt Richardson",
+      "nat": "CAN",
+      "pts": 174
+     },
+     {
+      "name": "Lena Duerr",
+      "nat": "GER",
+      "pts": 167
+     },
+     {
+      "name": "Stephanie Brunner",
+      "nat": "AUT",
+      "pts": 155
+     },
+     {
+      "name": "Sofia Goggia",
+      "nat": "ITA",
+      "pts": 138
+     },
+     {
+      "name": "Emma Aicher",
+      "nat": "GER",
+      "pts": 135
+     },
+     {
+      "name": "Asja Zenere",
+      "nat": "ITA",
+      "pts": 113
+     },
+     {
+      "name": "Vanessa Kasper",
+      "nat": "SUI",
+      "pts": 111
+     },
+     {
+      "name": "HURT A J",
+      "nat": "USA",
+      "pts": 110
+     },
+     {
+      "name": "Nina Astner",
+      "nat": "AUT",
+      "pts": 100
+     },
+     {
+      "name": "Estelle Alphand",
+      "nat": "SWE",
+      "pts": 95
+     },
+     {
+      "name": "Wendy Holdener",
+      "nat": "SUI",
+      "pts": 86
+     },
+     {
+      "name": "Clara Direz",
+      "nat": "FRA",
+      "pts": 74
+     },
+     {
+      "name": "Katharina Liensberger",
+      "nat": "AUT",
+      "pts": 73
+     },
+     {
+      "name": "Sue Piller",
+      "nat": "SUI",
+      "pts": 73
+     },
+     {
+      "name": "Lara Gut-Behrami",
+      "nat": "SUI",
+      "pts": 60
+     },
+     {
+      "name": "Madeleine Sylvester-Davik",
+      "nat": "NOR",
+      "pts": 60
+     },
+     {
+      "name": "Elisabeth Bocock",
+      "nat": "USA",
+      "pts": 52
+     },
+     {
+      "name": "Franziska Gritsch",
+      "nat": "AUT",
+      "pts": 47
+     },
+     {
+      "name": "Hilma Loevblom",
+      "nat": "SWE",
+      "pts": 45
+     },
+     {
+      "name": "Federica Brignone",
+      "nat": "ITA",
+      "pts": 40
+     },
+     {
+      "name": "Ilaria Ghisalberti",
+      "nat": "ITA",
+      "pts": 38
+     },
+     {
+      "name": "Cassidy Gray",
+      "nat": "CAN",
+      "pts": 37
+     },
+     {
+      "name": "Ricarda Haaser",
+      "nat": "AUT",
+      "pts": 35
+     },
+     {
+      "name": "Anna Trocker",
+      "nat": "ITA",
+      "pts": 32
+     },
+     {
+      "name": "Kajsa Vickhoff Lie",
+      "nat": "NOR",
+      "pts": 30
+     },
+     {
+      "name": "Fabiana Dorigo",
+      "nat": "GER",
+      "pts": 28
+     }
+    ],
+    "OVR": [
+     {
+      "name": "Mikaela Shiffrin",
+      "nat": "USA",
+      "pts": 1419
+     },
+     {
+      "name": "Emma Aicher",
+      "nat": "GER",
+      "pts": 1323
+     },
+     {
+      "name": "Camille Rast",
+      "nat": "SUI",
+      "pts": 1049
+     },
+     {
+      "name": "Sofia Goggia",
+      "nat": "ITA",
+      "pts": 994
+     },
+     {
+      "name": "Alice Robinson",
+      "nat": "NZL",
+      "pts": 830
+     },
+     {
+      "name": "Paula Moltzan",
+      "nat": "USA",
+      "pts": 790
+     },
+     {
+      "name": "Laura Pirovano",
+      "nat": "ITA",
+      "pts": 750
+     },
+     {
+      "name": "Julia Scheib",
+      "nat": "AUT",
+      "pts": 732
+     },
+     {
+      "name": "Sara Hector",
+      "nat": "SWE",
+      "pts": 692
+     },
+     {
+      "name": "Kira Weidle-Winkelmann",
+      "nat": "GER",
+      "pts": 649
+     },
+     {
+      "name": "Cornelia Huetter",
+      "nat": "AUT",
+      "pts": 620
+     },
+     {
+      "name": "Lindsey Vonn",
+      "nat": "USA",
+      "pts": 590
+     },
+     {
+      "name": "Wendy Holdener",
+      "nat": "SUI",
+      "pts": 584
+     },
+     {
+      "name": "Kajsa Vickhoff Lie",
+      "nat": "NOR",
+      "pts": 577
+     },
+     {
+      "name": "Lara Colturi",
+      "nat": "ALB",
+      "pts": 564
+     },
+     {
+      "name": "Breezy Johnson",
+      "nat": "USA",
+      "pts": 505
+     },
+     {
+      "name": "Ester Ledecka",
+      "nat": "CZE",
+      "pts": 493
+     },
+     {
+      "name": "Corinne Suter",
+      "nat": "SUI",
+      "pts": 482
+     },
+     {
+      "name": "Romane Miradoli",
+      "nat": "FRA",
+      "pts": 448
+     },
+     {
+      "name": "Katharina Truppe",
+      "nat": "AUT",
+      "pts": 441
+     },
+     {
+      "name": "Lena Duerr",
+      "nat": "GER",
+      "pts": 427
+     },
+     {
+      "name": "Valerie Grenier",
+      "nat": "CAN",
+      "pts": 396
+     },
+     {
+      "name": "Ariane Raedler",
+      "nat": "AUT",
+      "pts": 376
+     },
+     {
+      "name": "Nina Ortlieb",
+      "nat": "AUT",
+      "pts": 370
+     },
+     {
+      "name": "Elena Curtoni",
+      "nat": "ITA",
+      "pts": 370
+     },
+     {
+      "name": "Lara Della Mea",
+      "nat": "ITA",
+      "pts": 360
+     },
+     {
+      "name": "Malorie Blanc",
+      "nat": "SUI",
+      "pts": 356
+     },
+     {
+      "name": "Zrinka Ljutic",
+      "nat": "CRO",
+      "pts": 354
+     },
+     {
+      "name": "Ilka Stuhec",
+      "nat": "SLO",
+      "pts": 320
+     },
+     {
+      "name": "Mirjam Puchner",
+      "nat": "AUT",
+      "pts": 307
+     },
+     {
+      "name": "Anna Swenn Larsson",
+      "nat": "SWE",
+      "pts": 304
+     },
+     {
+      "name": "Thea Louise Stjernesund",
+      "nat": "NOR",
+      "pts": 297
+     },
+     {
+      "name": "Nicol Delago",
+      "nat": "ITA",
+      "pts": 287
+     },
+     {
+      "name": "Nina O'Brien",
+      "nat": "USA",
+      "pts": 252
+     },
+     {
+      "name": "Jacqueline Wiles",
+      "nat": "USA",
+      "pts": 236
+     },
+     {
+      "name": "Keely Cashman",
+      "nat": "USA",
+      "pts": 219
+     },
+     {
+      "name": "Mina Fuerst Holtmann",
+      "nat": "NOR",
+      "pts": 204
+     },
+     {
+      "name": "Asja Zenere",
+      "nat": "ITA",
+      "pts": 197
+     },
+     {
+      "name": "Maryna Gasienica-Daniel",
+      "nat": "POL",
+      "pts": 191
+     },
+     {
+      "name": "Katharina Liensberger",
+      "nat": "AUT",
+      "pts": 189
+     }
+    ],
+    "SL": [
+     {
+      "name": "Mikaela Shiffrin",
+      "nat": "USA",
+      "pts": 980
+     },
+     {
+      "name": "Camille Rast",
+      "nat": "SUI",
+      "pts": 538
+     },
+     {
+      "name": "Wendy Holdener",
+      "nat": "SUI",
+      "pts": 498
+     },
+     {
+      "name": "Katharina Truppe",
+      "nat": "AUT",
+      "pts": 441
+     },
+     {
+      "name": "Paula Moltzan",
+      "nat": "USA",
+      "pts": 392
+     },
+     {
+      "name": "Emma Aicher",
+      "nat": "GER",
+      "pts": 381
+     },
+     {
+      "name": "Lara Colturi",
+      "nat": "ALB",
+      "pts": 359
+     },
+     {
+      "name": "Anna Swenn Larsson",
+      "nat": "SWE",
+      "pts": 304
+     },
+     {
+      "name": "Lena Duerr",
+      "nat": "GER",
+      "pts": 260
+     },
+     {
+      "name": "Sara Hector",
+      "nat": "SWE",
+      "pts": 213
+     },
+     {
+      "name": "Marion Chevrier",
+      "nat": "FRA",
+      "pts": 187
+     },
+     {
+      "name": "Cornelia Oehlund",
+      "nat": "SWE",
+      "pts": 185
+     },
+     {
+      "name": "Dzenifera Germane",
+      "nat": "LAT",
+      "pts": 172
+     },
+     {
+      "name": "Lara Della Mea",
+      "nat": "ITA",
+      "pts": 157
+     },
+     {
+      "name": "Katharina Huber",
+      "nat": "AUT",
+      "pts": 145
+     },
+     {
+      "name": "Eliane Christen",
+      "nat": "SUI",
+      "pts": 128
+     },
+     {
+      "name": "Melanie Meillard",
+      "nat": "SUI",
+      "pts": 126
+     },
+     {
+      "name": "Hanna Aronsson Elfman",
+      "nat": "SWE",
+      "pts": 118
+     },
+     {
+      "name": "Katharina Liensberger",
+      "nat": "AUT",
+      "pts": 116
+     },
+     {
+      "name": "Caitlin McFarlane",
+      "nat": "FRA",
+      "pts": 114
+     },
+     {
+      "name": "Katharina Gallhuber",
+      "nat": "AUT",
+      "pts": 114
+     },
+     {
+      "name": "Laurence St-Germain",
+      "nat": "CAN",
+      "pts": 100
+     },
+     {
+      "name": "Zrinka Ljutic",
+      "nat": "CRO",
+      "pts": 87
+     },
+     {
+      "name": "Marie Lamure",
+      "nat": "FRA",
+      "pts": 85
+     },
+     {
+      "name": "Martina Peterlini",
+      "nat": "ITA",
+      "pts": 72
+     },
+     {
+      "name": "Ana Bucik Jogan",
+      "nat": "SLO",
+      "pts": 63
+     },
+     {
+      "name": "Lisa Hoerhager",
+      "nat": "AUT",
+      "pts": 60
+     },
+     {
+      "name": "Natalie Falch",
+      "nat": "AUT",
+      "pts": 56
+     },
+     {
+      "name": "Asa Ando",
+      "nat": "JPN",
+      "pts": 49
+     },
+     {
+      "name": "HURT A J",
+      "nat": "USA",
+      "pts": 38
+     },
+     {
+      "name": "Nina O'Brien",
+      "nat": "USA",
+      "pts": 37
+     },
+     {
+      "name": "Neja Dvornik",
+      "nat": "SLO",
+      "pts": 36
+     },
+     {
+      "name": "Martina Dubovska",
+      "nat": "CZE",
+      "pts": 34
+     },
+     {
+      "name": "Emilia Mondinelli",
+      "nat": "ITA",
+      "pts": 33
+     },
+     {
+      "name": "Anuk Braendli",
+      "nat": "SUI",
+      "pts": 32
+     },
+     {
+      "name": "Estelle Alphand",
+      "nat": "SWE",
+      "pts": 32
+     },
+     {
+      "name": "Bianca Bakke Westhoff",
+      "nat": "NOR",
+      "pts": 31
+     },
+     {
+      "name": "Anna Trocker",
+      "nat": "ITA",
+      "pts": 29
+     },
+     {
+      "name": "Thea Louise Stjernesund",
+      "nat": "NOR",
+      "pts": 25
+     },
+     {
+      "name": "Amelia Smart",
+      "nat": "CAN",
+      "pts": 25
+     }
+    ],
+    "DH": [
+     {
+      "name": "Laura Pirovano",
+      "nat": "ITA",
+      "pts": 536
+     },
+     {
+      "name": "Emma Aicher",
+      "nat": "GER",
+      "pts": 453
+     },
+     {
+      "name": "Breezy Johnson",
+      "nat": "USA",
+      "pts": 413
+     },
+     {
+      "name": "Kira Weidle-Winkelmann",
+      "nat": "GER",
+      "pts": 411
+     },
+     {
+      "name": "Lindsey Vonn",
+      "nat": "USA",
+      "pts": 400
+     },
+     {
+      "name": "Cornelia Huetter",
+      "nat": "AUT",
+      "pts": 376
+     },
+     {
+      "name": "Sofia Goggia",
+      "nat": "ITA",
+      "pts": 307
+     },
+     {
+      "name": "Nicol Delago",
+      "nat": "ITA",
+      "pts": 272
+     },
+     {
+      "name": "Nina Ortlieb",
+      "nat": "AUT",
+      "pts": 258
+     },
+     {
+      "name": "Kajsa Vickhoff Lie",
+      "nat": "NOR",
+      "pts": 258
+     },
+     {
+      "name": "Corinne Suter",
+      "nat": "SUI",
+      "pts": 257
+     },
+     {
+      "name": "Ariane Raedler",
+      "nat": "AUT",
+      "pts": 231
+     },
+     {
+      "name": "Ilka Stuhec",
+      "nat": "SLO",
+      "pts": 221
+     },
+     {
+      "name": "Jacqueline Wiles",
+      "nat": "USA",
+      "pts": 210
+     },
+     {
+      "name": "Ester Ledecka",
+      "nat": "CZE",
+      "pts": 209
+     },
+     {
+      "name": "Mirjam Puchner",
+      "nat": "AUT",
+      "pts": 193
+     },
+     {
+      "name": "Romane Miradoli",
+      "nat": "FRA",
+      "pts": 188
+     },
+     {
+      "name": "Marte Monsen",
+      "nat": "NOR",
+      "pts": 128
+     },
+     {
+      "name": "Magdalena Egger",
+      "nat": "AUT",
+      "pts": 123
+     },
+     {
+      "name": "Nadia Delago",
+      "nat": "ITA",
+      "pts": 106
+     },
+     {
+      "name": "Allison Mollin",
+      "nat": "USA",
+      "pts": 105
+     },
+     {
+      "name": "Elena Curtoni",
+      "nat": "ITA",
+      "pts": 104
+     },
+     {
+      "name": "Malorie Blanc",
+      "nat": "SUI",
+      "pts": 94
+     },
+     {
+      "name": "Janine Schmitt",
+      "nat": "SUI",
+      "pts": 84
+     },
+     {
+      "name": "Jasmine Flury",
+      "nat": "SUI",
+      "pts": 82
+     },
+     {
+      "name": "Isabella Wright",
+      "nat": "USA",
+      "pts": 48
+     },
+     {
+      "name": "Keely Cashman",
+      "nat": "USA",
+      "pts": 42
+     },
+     {
+      "name": "Roberta Melesi",
+      "nat": "ITA",
+      "pts": 37
+     },
+     {
+      "name": "Nadine Fest",
+      "nat": "AUT",
+      "pts": 32
+     },
+     {
+      "name": "Delia Durrer",
+      "nat": "SUI",
+      "pts": 29
+     },
+     {
+      "name": "Camille Cerutti",
+      "nat": "FRA",
+      "pts": 27
+     },
+     {
+      "name": "Haley Cutler",
+      "nat": "USA",
+      "pts": 26
+     },
+     {
+      "name": "Laura Gauche",
+      "nat": "FRA",
+      "pts": 22
+     },
+     {
+      "name": "Alice Robinson",
+      "nat": "NZL",
+      "pts": 21
+     },
+     {
+      "name": "Ricarda Haaser",
+      "nat": "AUT",
+      "pts": 21
+     },
+     {
+      "name": "Stefanie Grob",
+      "nat": "SUI",
+      "pts": 21
+     },
+     {
+      "name": "Priska Ming-Nufer",
+      "nat": "SUI",
+      "pts": 19
+     },
+     {
+      "name": "Lena Wechner",
+      "nat": "AUT",
+      "pts": 16
+     },
+     {
+      "name": "Jasmina Suter",
+      "nat": "SUI",
+      "pts": 15
+     },
+     {
+      "name": "Sara Thaler",
+      "nat": "ITA",
+      "pts": 14
+     }
+    ],
+    "SG": [
+     {
+      "name": "Sofia Goggia",
+      "nat": "ITA",
+      "pts": 549
+     },
+     {
+      "name": "Alice Robinson",
+      "nat": "NZL",
+      "pts": 401
+     },
+     {
+      "name": "Emma Aicher",
+      "nat": "GER",
+      "pts": 354
+     },
+     {
+      "name": "Kajsa Vickhoff Lie",
+      "nat": "NOR",
+      "pts": 289
+     },
+     {
+      "name": "Ester Ledecka",
+      "nat": "CZE",
+      "pts": 284
+     },
+     {
+      "name": "Elena Curtoni",
+      "nat": "ITA",
+      "pts": 266
+     },
+     {
+      "name": "Malorie Blanc",
+      "nat": "SUI",
+      "pts": 262
+     },
+     {
+      "name": "Romane Miradoli",
+      "nat": "FRA",
+      "pts": 260
+     },
+     {
+      "name": "Cornelia Huetter",
+      "nat": "AUT",
+      "pts": 244
+     },
+     {
+      "name": "Kira Weidle-Winkelmann",
+      "nat": "GER",
+      "pts": 229
+     },
+     {
+      "name": "Corinne Suter",
+      "nat": "SUI",
+      "pts": 225
+     },
+     {
+      "name": "Laura Pirovano",
+      "nat": "ITA",
+      "pts": 201
+     },
+     {
+      "name": "Lindsey Vonn",
+      "nat": "USA",
+      "pts": 190
+     },
+     {
+      "name": "Keely Cashman",
+      "nat": "USA",
+      "pts": 177
+     },
+     {
+      "name": "Laura Gauche",
+      "nat": "FRA",
+      "pts": 164
+     },
+     {
+      "name": "Roberta Melesi",
+      "nat": "ITA",
+      "pts": 145
+     },
+     {
+      "name": "Ariane Raedler",
+      "nat": "AUT",
+      "pts": 145
+     },
+     {
+      "name": "Camille Cerutti",
+      "nat": "FRA",
+      "pts": 143
+     },
+     {
+      "name": "Mirjam Puchner",
+      "nat": "AUT",
+      "pts": 114
+     },
+     {
+      "name": "Nina Ortlieb",
+      "nat": "AUT",
+      "pts": 112
+     },
+     {
+      "name": "Ilka Stuhec",
+      "nat": "SLO",
+      "pts": 99
+     },
+     {
+      "name": "Breezy Johnson",
+      "nat": "USA",
+      "pts": 92
+     },
+     {
+      "name": "Mary Bocock",
+      "nat": "USA",
+      "pts": 85
+     },
+     {
+      "name": "Asja Zenere",
+      "nat": "ITA",
+      "pts": 83
+     },
+     {
+      "name": "Valerie Grenier",
+      "nat": "CAN",
+      "pts": 76
+     },
+     {
+      "name": "Federica Brignone",
+      "nat": "ITA",
+      "pts": 61
+     },
+     {
+      "name": "Nadine Fest",
+      "nat": "AUT",
+      "pts": 57
+     },
+     {
+      "name": "Jasmina Suter",
+      "nat": "SUI",
+      "pts": 46
+     },
+     {
+      "name": "Joana Haehlen",
+      "nat": "SUI",
+      "pts": 42
+     },
+     {
+      "name": "Tricia Mangan",
+      "nat": "USA",
+      "pts": 41
+     },
+     {
+      "name": "Stefanie Grob",
+      "nat": "SUI",
+      "pts": 39
+     },
+     {
+      "name": "Magdalena Egger",
+      "nat": "AUT",
+      "pts": 29
+     },
+     {
+      "name": "Jacqueline Wiles",
+      "nat": "USA",
+      "pts": 26
+     },
+     {
+      "name": "Sara Allemand",
+      "nat": "ITA",
+      "pts": 21
+     },
+     {
+      "name": "Janine Schmitt",
+      "nat": "SUI",
+      "pts": 17
+     },
+     {
+      "name": "Ricarda Haaser",
+      "nat": "AUT",
+      "pts": 17
+     },
+     {
+      "name": "Mikaela Shiffrin",
+      "nat": "USA",
+      "pts": 17
+     },
+     {
+      "name": "Elvedina Muzaferija",
+      "nat": "BIH",
+      "pts": 16
+     },
+     {
+      "name": "Haley Cutler",
+      "nat": "USA",
+      "pts": 15
+     },
+     {
+      "name": "Nicol Delago",
+      "nat": "ITA",
+      "pts": 15
+     }
+    ]
+   },
+   "M": {
+    "GS": [
+     {
+      "name": "Lucas Pinheiro Braathen",
+      "nat": "BRA",
+      "pts": 547
+     },
+     {
+      "name": "Marco Odermatt",
+      "nat": "SUI",
+      "pts": 495
+     },
+     {
+      "name": "Loic Meillard",
+      "nat": "SUI",
+      "pts": 486
+     },
+     {
+      "name": "Stefan Brennsteiner",
+      "nat": "AUT",
+      "pts": 431
+     },
+     {
+      "name": "Marco Schwarz",
+      "nat": "AUT",
+      "pts": 339
+     },
+     {
+      "name": "Henrik Kristoffersen",
+      "nat": "NOR",
+      "pts": 331
+     },
+     {
+      "name": "Atle Lie McGrath",
+      "nat": "NOR",
+      "pts": 330
+     },
+     {
+      "name": "Timon Haugan",
+      "nat": "NOR",
+      "pts": 277
+     },
+     {
+      "name": "Alex Vinatzer",
+      "nat": "ITA",
+      "pts": 236
+     },
+     {
+      "name": "River Radamus",
+      "nat": "USA",
+      "pts": 207
+     },
+     {
+      "name": "Fabian Gratz",
+      "nat": "GER",
+      "pts": 194
+     },
+     {
+      "name": "Luca Aerni",
+      "nat": "SUI",
+      "pts": 192
+     },
+     {
+      "name": "Sam Maes",
+      "nat": "BEL",
+      "pts": 189
+     },
+     {
+      "name": "Zan Kranjec",
+      "nat": "SLO",
+      "pts": 180
+     },
+     {
+      "name": "Leo Anguenot",
+      "nat": "FRA",
+      "pts": 172
+     },
+     {
+      "name": "Alexis Pinturault",
+      "nat": "FRA",
+      "pts": 148
+     },
+     {
+      "name": "Anton Grammel",
+      "nat": "GER",
+      "pts": 139
+     },
+     {
+      "name": "Thomas Tumler",
+      "nat": "SUI",
+      "pts": 139
+     },
+     {
+      "name": "Raphael Haaser",
+      "nat": "AUT",
+      "pts": 134
+     },
+     {
+      "name": "Filip Zubcic",
+      "nat": "CRO",
+      "pts": 131
+     },
+     {
+      "name": "Alban Elezi Cannaferina",
+      "nat": "FRA",
+      "pts": 103
+     },
+     {
+      "name": "Thibaut Favrot",
+      "nat": "FRA",
+      "pts": 101
+     },
+     {
+      "name": "Joshua Sturm",
+      "nat": "AUT",
+      "pts": 101
+     },
+     {
+      "name": "Patrick Feurstein",
+      "nat": "AUT",
+      "pts": 99
+     },
+     {
+      "name": "Jonas Stockinger",
+      "nat": "GER",
+      "pts": 86
+     },
+     {
+      "name": "Joan Verdu",
+      "nat": "AND",
+      "pts": 60
+     },
+     {
+      "name": "Alexander Schmid",
+      "nat": "GER",
+      "pts": 59
+     },
+     {
+      "name": "Eirik Hystad Solberg",
+      "nat": "NOR",
+      "pts": 57
+     },
+     {
+      "name": "Giovanni Borsotti",
+      "nat": "ITA",
+      "pts": 49
+     },
+     {
+      "name": "Flavio Vitale",
+      "nat": "FRA",
+      "pts": 43
+     },
+     {
+      "name": "Lukas Feurstein",
+      "nat": "AUT",
+      "pts": 38
+     },
+     {
+      "name": "Ryder Sarchett",
+      "nat": "USA",
+      "pts": 37
+     },
+     {
+      "name": "Loevan Parand",
+      "nat": "FRA",
+      "pts": 36
+     },
+     {
+      "name": "Filippo Della Vite",
+      "nat": "ITA",
+      "pts": 36
+     },
+     {
+      "name": "Luca de Aliprandini",
+      "nat": "ITA",
+      "pts": 32
+     },
+     {
+      "name": "Fabian Ax Swartz",
+      "nat": "SWE",
+      "pts": 32
+     },
+     {
+      "name": "Oscar Andreas Sandvik",
+      "nat": "NOR",
+      "pts": 16
+     },
+     {
+      "name": "Rasmus Bakkevig",
+      "nat": "NOR",
+      "pts": 16
+     },
+     {
+      "name": "Erik Read",
+      "nat": "CAN",
+      "pts": 15
+     },
+     {
+      "name": "Albert Ortega Fornesa",
+      "nat": "ESP",
+      "pts": 14
+     }
+    ],
+    "OVR": [
+     {
+      "name": "Marco Odermatt",
+      "nat": "SUI",
+      "pts": 1638
+     },
+     {
+      "name": "Lucas Pinheiro Braathen",
+      "nat": "BRA",
+      "pts": 1058
+     },
+     {
+      "name": "Atle Lie McGrath",
+      "nat": "NOR",
+      "pts": 936
+     },
+     {
+      "name": "Loic Meillard",
+      "nat": "SUI",
+      "pts": 923
+     },
+     {
+      "name": "Henrik Kristoffersen",
+      "nat": "NOR",
+      "pts": 834
+     },
+     {
+      "name": "Timon Haugan",
+      "nat": "NOR",
+      "pts": 776
+     },
+     {
+      "name": "Franjo von Allmen",
+      "nat": "SUI",
+      "pts": 770
+     },
+     {
+      "name": "Vincent Kriechmayr",
+      "nat": "AUT",
+      "pts": 731
+     },
+     {
+      "name": "Dominik Paris",
+      "nat": "ITA",
+      "pts": 698
+     },
+     {
+      "name": "Giovanni Franzoni",
+      "nat": "ITA",
+      "pts": 673
+     },
+     {
+      "name": "Marco Schwarz",
+      "nat": "AUT",
+      "pts": 633
+     },
+     {
+      "name": "Raphael Haaser",
+      "nat": "AUT",
+      "pts": 531
+     },
+     {
+      "name": "Clement Noel",
+      "nat": "FRA",
+      "pts": 520
+     },
+     {
+      "name": "Alexis Monney",
+      "nat": "SUI",
+      "pts": 448
+     },
+     {
+      "name": "Stefan Rogentin",
+      "nat": "SUI",
+      "pts": 447
+     },
+     {
+      "name": "Stefan Brennsteiner",
+      "nat": "AUT",
+      "pts": 431
+     },
+     {
+      "name": "Alex Vinatzer",
+      "nat": "ITA",
+      "pts": 411
+     },
+     {
+      "name": "Paco Rassat",
+      "nat": "FRA",
+      "pts": 398
+     },
+     {
+      "name": "Nils Allegre",
+      "nat": "FRA",
+      "pts": 390
+     },
+     {
+      "name": "Ryan Cochran-Siegle",
+      "nat": "USA",
+      "pts": 357
+     },
+     {
+      "name": "Eduard Hallberg",
+      "nat": "FIN",
+      "pts": 339
+     },
+     {
+      "name": "Mattia Casse",
+      "nat": "ITA",
+      "pts": 313
+     },
+     {
+      "name": "Stefan Babinsky",
+      "nat": "AUT",
+      "pts": 309
+     },
+     {
+      "name": "Florian Schieder",
+      "nat": "ITA",
+      "pts": 299
+     },
+     {
+      "name": "Daniel Hemetsberger",
+      "nat": "AUT",
+      "pts": 282
+     },
+     {
+      "name": "Tanguy Nef",
+      "nat": "SUI",
+      "pts": 280
+     },
+     {
+      "name": "River Radamus",
+      "nat": "USA",
+      "pts": 275
+     },
+     {
+      "name": "Adrian Smiseth Sejersted",
+      "nat": "NOR",
+      "pts": 264
+     },
+     {
+      "name": "Eirik Hystad Solberg",
+      "nat": "NOR",
+      "pts": 247
+     },
+     {
+      "name": "Manuel Feller",
+      "nat": "AUT",
+      "pts": 247
+     },
+     {
+      "name": "Linus Strasser",
+      "nat": "GER",
+      "pts": 238
+     },
+     {
+      "name": "Sam Maes",
+      "nat": "BEL",
+      "pts": 227
+     },
+     {
+      "name": "Michael Matt",
+      "nat": "AUT",
+      "pts": 224
+     },
+     {
+      "name": "Cameron Alexander",
+      "nat": "CAN",
+      "pts": 215
+     },
+     {
+      "name": "Armand Marchant",
+      "nat": "BEL",
+      "pts": 207
+     },
+     {
+      "name": "Fabio Gstrein",
+      "nat": "AUT",
+      "pts": 201
+     },
+     {
+      "name": "Fabian Gratz",
+      "nat": "GER",
+      "pts": 194
+     },
+     {
+      "name": "Victor Muffat-Jeandet",
+      "nat": "FRA",
+      "pts": 194
+     },
+     {
+      "name": "Christof Innerhofer",
+      "nat": "ITA",
+      "pts": 193
+     },
+     {
+      "name": "Luca Aerni",
+      "nat": "SUI",
+      "pts": 192
+     }
+    ],
+    "SL": [
+     {
+      "name": "Atle Lie McGrath",
+      "nat": "NOR",
+      "pts": 584
+     },
+     {
+      "name": "Clement Noel",
+      "nat": "FRA",
+      "pts": 520
+     },
+     {
+      "name": "Lucas Pinheiro Braathen",
+      "nat": "BRA",
+      "pts": 511
+     },
+     {
+      "name": "Henrik Kristoffersen",
+      "nat": "NOR",
+      "pts": 503
+     },
+     {
+      "name": "Timon Haugan",
+      "nat": "NOR",
+      "pts": 499
+     },
+     {
+      "name": "Paco Rassat",
+      "nat": "FRA",
+      "pts": 398
+     },
+     {
+      "name": "Loic Meillard",
+      "nat": "SUI",
+      "pts": 392
+     },
+     {
+      "name": "Eduard Hallberg",
+      "nat": "FIN",
+      "pts": 339
+     },
+     {
+      "name": "Tanguy Nef",
+      "nat": "SUI",
+      "pts": 280
+     },
+     {
+      "name": "Manuel Feller",
+      "nat": "AUT",
+      "pts": 247
+     },
+     {
+      "name": "Linus Strasser",
+      "nat": "GER",
+      "pts": 238
+     },
+     {
+      "name": "Michael Matt",
+      "nat": "AUT",
+      "pts": 224
+     },
+     {
+      "name": "Armand Marchant",
+      "nat": "BEL",
+      "pts": 207
+     },
+     {
+      "name": "Fabio Gstrein",
+      "nat": "AUT",
+      "pts": 201
+     },
+     {
+      "name": "Victor Muffat-Jeandet",
+      "nat": "FRA",
+      "pts": 194
+     },
+     {
+      "name": "Eirik Hystad Solberg",
+      "nat": "NOR",
+      "pts": 190
+     },
+     {
+      "name": "Alex Vinatzer",
+      "nat": "ITA",
+      "pts": 175
+     },
+     {
+      "name": "Steven Amiez",
+      "nat": "FRA",
+      "pts": 174
+     },
+     {
+      "name": "Tommaso Sala",
+      "nat": "ITA",
+      "pts": 139
+     },
+     {
+      "name": "Daniel Yule",
+      "nat": "SUI",
+      "pts": 126
+     },
+     {
+      "name": "Albert Popov",
+      "nat": "BUL",
+      "pts": 114
+     },
+     {
+      "name": "Laurie Taylor",
+      "nat": "GBR",
+      "pts": 112
+     },
+     {
+      "name": "Samuel Kolega",
+      "nat": "CRO",
+      "pts": 107
+     },
+     {
+      "name": "Oscar Andreas Sandvik",
+      "nat": "NOR",
+      "pts": 105
+     },
+     {
+      "name": "Dominik Raschner",
+      "nat": "AUT",
+      "pts": 103
+     },
+     {
+      "name": "Marco Schwarz",
+      "nat": "AUT",
+      "pts": 101
+     },
+     {
+      "name": "Dave Ryding",
+      "nat": "GBR",
+      "pts": 89
+     },
+     {
+      "name": "Joshua Sturm",
+      "nat": "AUT",
+      "pts": 78
+     },
+     {
+      "name": "Hans Grahl-Madsen",
+      "nat": "NOR",
+      "pts": 72
+     },
+     {
+      "name": "Fabian Ax Swartz",
+      "nat": "SWE",
+      "pts": 71
+     },
+     {
+      "name": "Matthias Iten",
+      "nat": "SUI",
+      "pts": 70
+     },
+     {
+      "name": "Filip Zubcic",
+      "nat": "CRO",
+      "pts": 60
+     },
+     {
+      "name": "Johannes Strolz",
+      "nat": "AUT",
+      "pts": 55
+     },
+     {
+      "name": "Benjamin Ritchie",
+      "nat": "USA",
+      "pts": 48
+     },
+     {
+      "name": "Billy Major",
+      "nat": "GBR",
+      "pts": 44
+     },
+     {
+      "name": "Auguste Aulnette",
+      "nat": "FRA",
+      "pts": 40
+     },
+     {
+      "name": "Ramon Zenhaeusern",
+      "nat": "SUI",
+      "pts": 40
+     },
+     {
+      "name": "Sam Maes",
+      "nat": "BEL",
+      "pts": 38
+     },
+     {
+      "name": "Antoine Azzolin",
+      "nat": "FRA",
+      "pts": 30
+     },
+     {
+      "name": "Tobias Kastlunger",
+      "nat": "ITA",
+      "pts": 26
+     }
+    ],
+    "SG": [
+     {
+      "name": "Marco Odermatt",
+      "nat": "SUI",
+      "pts": 437
+     },
+     {
+      "name": "Vincent Kriechmayr",
+      "nat": "AUT",
+      "pts": 347
+     },
+     {
+      "name": "Raphael Haaser",
+      "nat": "AUT",
+      "pts": 301
+     },
+     {
+      "name": "Giovanni Franzoni",
+      "nat": "ITA",
+      "pts": 285
+     },
+     {
+      "name": "Dominik Paris",
+      "nat": "ITA",
+      "pts": 257
+     },
+     {
+      "name": "Franjo von Allmen",
+      "nat": "SUI",
+      "pts": 255
+     },
+     {
+      "name": "Stefan Babinsky",
+      "nat": "AUT",
+      "pts": 252
+     },
+     {
+      "name": "Stefan Rogentin",
+      "nat": "SUI",
+      "pts": 240
+     },
+     {
+      "name": "Alexis Monney",
+      "nat": "SUI",
+      "pts": 189
+     },
+     {
+      "name": "Marco Schwarz",
+      "nat": "AUT",
+      "pts": 183
+     },
+     {
+      "name": "Jan Zabystran",
+      "nat": "CZE",
+      "pts": 170
+     },
+     {
+      "name": "Fredrik Moeller",
+      "nat": "NOR",
+      "pts": 168
+     },
+     {
+      "name": "Nils Allegre",
+      "nat": "FRA",
+      "pts": 162
+     },
+     {
+      "name": "Mattia Casse",
+      "nat": "ITA",
+      "pts": 139
+     },
+     {
+      "name": "Ryan Cochran-Siegle",
+      "nat": "USA",
+      "pts": 128
+     },
+     {
+      "name": "Adrian Smiseth Sejersted",
+      "nat": "NOR",
+      "pts": 125
+     },
+     {
+      "name": "Daniel Hemetsberger",
+      "nat": "AUT",
+      "pts": 121
+     },
+     {
+      "name": "Lukas Feurstein",
+      "nat": "AUT",
+      "pts": 102
+     },
+     {
+      "name": "Christof Innerhofer",
+      "nat": "ITA",
+      "pts": 99
+     },
+     {
+      "name": "Guglielmo Bosca",
+      "nat": "ITA",
+      "pts": 96
+     },
+     {
+      "name": "Simon Jocher",
+      "nat": "GER",
+      "pts": 80
+     },
+     {
+      "name": "James Crawford",
+      "nat": "CAN",
+      "pts": 78
+     },
+     {
+      "name": "Matthieu Bailet",
+      "nat": "FRA",
+      "pts": 71
+     },
+     {
+      "name": "Cameron Alexander",
+      "nat": "CAN",
+      "pts": 71
+     },
+     {
+      "name": "River Radamus",
+      "nat": "USA",
+      "pts": 68
+     },
+     {
+      "name": "Kyle Negomir",
+      "nat": "USA",
+      "pts": 46
+     },
+     {
+      "name": "Loic Meillard",
+      "nat": "SUI",
+      "pts": 45
+     },
+     {
+      "name": "Stefan Eichberger",
+      "nat": "AUT",
+      "pts": 40
+     },
+     {
+      "name": "Marco Kohler",
+      "nat": "SUI",
+      "pts": 37
+     },
+     {
+      "name": "Alban Elezi Cannaferina",
+      "nat": "FRA",
+      "pts": 35
+     },
+     {
+      "name": "Miha Hrobat",
+      "nat": "SLO",
+      "pts": 31
+     },
+     {
+      "name": "Brodie Seger",
+      "nat": "CAN",
+      "pts": 31
+     },
+     {
+      "name": "Sam Morse",
+      "nat": "USA",
+      "pts": 30
+     },
+     {
+      "name": "Riley Seger",
+      "nat": "CAN",
+      "pts": 29
+     },
+     {
+      "name": "Justin Murisier",
+      "nat": "SUI",
+      "pts": 27
+     },
+     {
+      "name": "Sam Alphand",
+      "nat": "FRA",
+      "pts": 24
+     },
+     {
+      "name": "Benjamin Jacques Alliod",
+      "nat": "ITA",
+      "pts": 23
+     },
+     {
+      "name": "Atle Lie McGrath",
+      "nat": "NOR",
+      "pts": 22
+     },
+     {
+      "name": "Florian Schieder",
+      "nat": "ITA",
+      "pts": 22
+     },
+     {
+      "name": "Vincent Wieser",
+      "nat": "AUT",
+      "pts": 20
+     }
+    ],
+    "DH": [
+     {
+      "name": "Marco Odermatt",
+      "nat": "SUI",
+      "pts": 706
+     },
+     {
+      "name": "Franjo von Allmen",
+      "nat": "SUI",
+      "pts": 515
+     },
+     {
+      "name": "Dominik Paris",
+      "nat": "ITA",
+      "pts": 441
+     },
+     {
+      "name": "Vincent Kriechmayr",
+      "nat": "AUT",
+      "pts": 382
+     },
+     {
+      "name": "Giovanni Franzoni",
+      "nat": "ITA",
+      "pts": 378
+     },
+     {
+      "name": "Florian Schieder",
+      "nat": "ITA",
+      "pts": 277
+     },
+     {
+      "name": "Alexis Monney",
+      "nat": "SUI",
+      "pts": 259
+     },
+     {
+      "name": "Ryan Cochran-Siegle",
+      "nat": "USA",
+      "pts": 229
+     },
+     {
+      "name": "Nils Allegre",
+      "nat": "FRA",
+      "pts": 228
+     },
+     {
+      "name": "Stefan Rogentin",
+      "nat": "SUI",
+      "pts": 207
+     },
+     {
+      "name": "Mattia Casse",
+      "nat": "ITA",
+      "pts": 174
+     },
+     {
+      "name": "Maxence Muzaton",
+      "nat": "FRA",
+      "pts": 170
+     },
+     {
+      "name": "Daniel Hemetsberger",
+      "nat": "AUT",
+      "pts": 161
+     },
+     {
+      "name": "Miha Hrobat",
+      "nat": "SLO",
+      "pts": 151
+     },
+     {
+      "name": "Cameron Alexander",
+      "nat": "CAN",
+      "pts": 144
+     },
+     {
+      "name": "Adrian Smiseth Sejersted",
+      "nat": "NOR",
+      "pts": 139
+     },
+     {
+      "name": "Benjamin Jacques Alliod",
+      "nat": "ITA",
+      "pts": 139
+     },
+     {
+      "name": "Niels Hintermann",
+      "nat": "SUI",
+      "pts": 130
+     },
+     {
+      "name": "Justin Murisier",
+      "nat": "SUI",
+      "pts": 124
+     },
+     {
+      "name": "Alessio Miggiano",
+      "nat": "SUI",
+      "pts": 123
+     },
+     {
+      "name": "Raphael Haaser",
+      "nat": "AUT",
+      "pts": 96
+     },
+     {
+      "name": "Nils Alphand",
+      "nat": "FRA",
+      "pts": 95
+     },
+     {
+      "name": "Christof Innerhofer",
+      "nat": "ITA",
+      "pts": 94
+     },
+     {
+      "name": "Elian Lehto",
+      "nat": "FIN",
+      "pts": 83
+     },
+     {
+      "name": "Martin Cater",
+      "nat": "SLO",
+      "pts": 82
+     },
+     {
+      "name": "Lars Roesti",
+      "nat": "SUI",
+      "pts": 59
+     },
+     {
+      "name": "Stefan Babinsky",
+      "nat": "AUT",
+      "pts": 57
+     },
+     {
+      "name": "Luis Vogt",
+      "nat": "GER",
+      "pts": 57
+     },
+     {
+      "name": "Felix Monsen",
+      "nat": "SWE",
+      "pts": 54
+     },
+     {
+      "name": "Marco Kohler",
+      "nat": "SUI",
+      "pts": 51
+     },
+     {
+      "name": "Blaise Giezendanner",
+      "nat": "FRA",
+      "pts": 46
+     },
+     {
+      "name": "Kyle Negomir",
+      "nat": "USA",
+      "pts": 45
+     },
+     {
+      "name": "Erik Arvidsson",
+      "nat": "USA",
+      "pts": 44
+     },
+     {
+      "name": "Simon Jocher",
+      "nat": "GER",
+      "pts": 38
+     },
+     {
+      "name": "Stefan Eichberger",
+      "nat": "AUT",
+      "pts": 36
+     },
+     {
+      "name": "Adrien Theaux",
+      "nat": "FRA",
+      "pts": 35
+     },
+     {
+      "name": "Bryce Bennett",
+      "nat": "USA",
+      "pts": 32
+     },
+     {
+      "name": "James Crawford",
+      "nat": "CAN",
+      "pts": 32
+     },
+     {
+      "name": "Andreas Ploier",
+      "nat": "AUT",
+      "pts": 31
+     },
+     {
+      "name": "Wiley Maple",
+      "nat": "USA",
+      "pts": 30
+     }
+    ]
+   }
+  }
+ },
+ "athletes": {
+  "W": [
+   [
+    "Julia Scheib",
+    "AUT"
+   ],
+   [
+    "Paula Moltzan",
+    "USA"
+   ],
+   [
+    "Lara Gut-Behrami",
+    "SUI"
+   ],
+   [
+    "Mikaela Shiffrin",
+    "USA"
+   ],
+   [
+    "Thea Louise Stjernesund",
+    "NOR"
+   ],
+   [
+    "Nina O'Brien",
+    "USA"
+   ],
+   [
+    "Lara Colturi",
+    "ALB"
+   ],
+   [
+    "Alice Robinson",
+    "NZL"
+   ],
+   [
+    "Sara Hector",
+    "SWE"
+   ],
+   [
+    "Zrinka Ljutic",
+    "CRO"
+   ],
+   [
+    "Valerie Grenier",
+    "CAN"
+   ],
+   [
+    "Katie Hensien",
+    "USA"
+   ],
+   [
+    "HURT A J",
+    "USA"
+   ],
+   [
+    "Lena Duerr",
+    "GER"
+   ],
+   [
+    "Camille Rast",
+    "SUI"
+   ],
+   [
+    "Kajsa Vickhoff Lie",
+    "NOR"
+   ],
+   [
+    "Asja Zenere",
+    "ITA"
+   ],
+   [
+    "Maryna Gasienica-Daniel",
+    "POL"
+   ],
+   [
+    "Elisabeth Bocock",
+    "USA"
+   ],
+   [
+    "Britt Richardson",
+    "CAN"
+   ],
+   [
+    "Mina Fuerst Holtmann",
+    "NOR"
+   ],
+   [
+    "Erika Pykalainen",
+    "FIN"
+   ],
+   [
+    "Stephanie Brunner",
+    "AUT"
+   ],
+   [
+    "Nina Astner",
+    "AUT"
+   ],
+   [
+    "Clara Direz",
+    "FRA"
+   ],
+   [
+    "Neja Dvornik",
+    "SLO"
+   ],
+   [
+    "Katharina Liensberger",
+    "AUT"
+   ],
+   [
+    "Emma Aicher",
+    "GER"
+   ],
+   [
+    "Vanessa Kasper",
+    "SUI"
+   ],
+   [
+    "Wendy Holdener",
+    "SUI"
+   ],
+   [
+    "Marion Chevrier",
+    "FRA"
+   ],
+   [
+    "Anna Swenn Larsson",
+    "SWE"
+   ],
+   [
+    "Caitlin McFarlane",
+    "FRA"
+   ],
+   [
+    "Bianca Bakke Westhoff",
+    "NOR"
+   ],
+   [
+    "Katharina Truppe",
+    "AUT"
+   ],
+   [
+    "Katharina Huber",
+    "AUT"
+   ],
+   [
+    "Cornelia Oehlund",
+    "SWE"
+   ],
+   [
+    "Hanna Aronsson Elfman",
+    "SWE"
+   ],
+   [
+    "Ana Bucik Jogan",
+    "SLO"
+   ],
+   [
+    "Dzenifera Germane",
+    "LAT"
+   ],
+   [
+    "Melanie Meillard",
+    "SUI"
+   ],
+   [
+    "Lisa Hoerhager",
+    "AUT"
+   ],
+   [
+    "Katharina Gallhuber",
+    "AUT"
+   ],
+   [
+    "Zita Toth",
+    "HUN"
+   ],
+   [
+    "Asa Ando",
+    "JPN"
+   ],
+   [
+    "Emilia Mondinelli",
+    "ITA"
+   ],
+   [
+    "Rosa Pohjolainen",
+    "FIN"
+   ],
+   [
+    "Laurence St-Germain",
+    "CAN"
+   ],
+   [
+    "Franziska Gritsch",
+    "AUT"
+   ],
+   [
+    "Lara Della Mea",
+    "ITA"
+   ],
+   [
+    "Anuk Braendli",
+    "SUI"
+   ],
+   [
+    "Leona Popovic",
+    "CRO"
+   ],
+   [
+    "Marie Lamure",
+    "FRA"
+   ],
+   [
+    "Eliane Christen",
+    "SUI"
+   ],
+   [
+    "Natalie Falch",
+    "AUT"
+   ],
+   [
+    "Sofia Goggia",
+    "ITA"
+   ],
+   [
+    "Estelle Alphand",
+    "SWE"
+   ],
+   [
+    "Camille Cerutti",
+    "FRA"
+   ],
+   [
+    "Aline Danioth",
+    "SUI"
+   ],
+   [
+    "Nicole Good",
+    "SUI"
+   ],
+   [
+    "Jessica Hilzinger",
+    "GER"
+   ],
+   [
+    "Amelia Smart",
+    "CAN"
+   ],
+   [
+    "Sue Piller",
+    "SUI"
+   ],
+   [
+    "Madeleine Sylvester-Davik",
+    "NOR"
+   ],
+   [
+    "Ilaria Ghisalberti",
+    "ITA"
+   ],
+   [
+    "Cassidy Gray",
+    "CAN"
+   ],
+   [
+    "Simone Wild",
+    "SUI"
+   ],
+   [
+    "Hilma Loevblom",
+    "SWE"
+   ],
+   [
+    "Victoria Olivier",
+    "AUT"
+   ],
+   [
+    "Fabiana Dorigo",
+    "GER"
+   ],
+   [
+    "Viktoria Buergler",
+    "AUT"
+   ],
+   [
+    "Lindsey Vonn",
+    "USA"
+   ],
+   [
+    "Magdalena Egger",
+    "AUT"
+   ],
+   [
+    "Mirjam Puchner",
+    "AUT"
+   ],
+   [
+    "Romane Miradoli",
+    "FRA"
+   ],
+   [
+    "Cornelia Huetter",
+    "AUT"
+   ],
+   [
+    "Laura Pirovano",
+    "ITA"
+   ],
+   [
+    "Kira Weidle-Winkelmann",
+    "GER"
+   ],
+   [
+    "Nina Ortlieb",
+    "AUT"
+   ],
+   [
+    "Ariane Raedler",
+    "AUT"
+   ],
+   [
+    "Nicol Delago",
+    "ITA"
+   ],
+   [
+    "Malorie Blanc",
+    "SUI"
+   ],
+   [
+    "Ilka Stuhec",
+    "SLO"
+   ],
+   [
+    "Breezy Johnson",
+    "USA"
+   ],
+   [
+    "Isabella Wright",
+    "USA"
+   ],
+   [
+    "Jasmina Suter",
+    "SUI"
+   ],
+   [
+    "Jacqueline Wiles",
+    "USA"
+   ],
+   [
+    "Haley Cutler",
+    "USA"
+   ],
+   [
+    "Lena Wechner",
+    "AUT"
+   ],
+   [
+    "Ester Ledecka",
+    "CZE"
+   ],
+   [
+    "Janine Schmitt",
+    "SUI"
+   ],
+   [
+    "Keely Cashman",
+    "USA"
+   ],
+   [
+    "Roberta Melesi",
+    "ITA"
+   ],
+   [
+    "Cande Moreno",
+    "AND"
+   ],
+   [
+    "Allison Mollin",
+    "USA"
+   ],
+   [
+    "Christina Ager",
+    "AUT"
+   ],
+   [
+    "Jasmine Flury",
+    "SUI"
+   ],
+   [
+    "Marte Monsen",
+    "NOR"
+   ],
+   [
+    "Priska Ming-Nufer",
+    "SUI"
+   ],
+   [
+    "Delia Durrer",
+    "SUI"
+   ],
+   [
+    "Joana Haehlen",
+    "SUI"
+   ],
+   [
+    "Laura Gauche",
+    "FRA"
+   ],
+   [
+    "Elena Curtoni",
+    "ITA"
+   ],
+   [
+    "Nadine Fest",
+    "AUT"
+   ],
+   [
+    "Mary Bocock",
+    "USA"
+   ],
+   [
+    "Tricia Mangan",
+    "USA"
+   ],
+   [
+    "Elvedina Muzaferija",
+    "BIH"
+   ],
+   [
+    "Martina Peterlini",
+    "ITA"
+   ],
+   [
+    "Nadia Delago",
+    "ITA"
+   ],
+   [
+    "Sara Allemand",
+    "ITA"
+   ],
+   [
+    "Ricarda Haaser",
+    "AUT"
+   ],
+   [
+    "Jana Fritz",
+    "GER"
+   ],
+   [
+    "Justine Lamontagne",
+    "CAN"
+   ],
+   [
+    "Alice Pazzaglia",
+    "ITA"
+   ],
+   [
+    "Carla Mijares Ruf",
+    "AND"
+   ],
+   [
+    "Aline Hoepli",
+    "SUI"
+   ],
+   [
+    "Chisaki Maeda",
+    "JPN"
+   ],
+   [
+    "Kiki Alexander",
+    "CAN"
+   ],
+   [
+    "Doriane Escane",
+    "FRA"
+   ],
+   [
+    "Dania Allenbach",
+    "SUI"
+   ],
+   [
+    "Giulia Valleriani",
+    "ITA"
+   ],
+   [
+    "Moa Landstroem",
+    "SWE"
+   ],
+   [
+    "Beatrice Sola",
+    "ITA"
+   ],
+   [
+    "Noa Szollos",
+    "ISR"
+   ],
+   [
+    "Leonie Raich",
+    "AUT"
+   ],
+   [
+    "Corinne Suter",
+    "SUI"
+   ],
+   [
+    "Sara Thaler",
+    "ITA"
+   ],
+   [
+    "Inni Holm Wembstad",
+    "NOR"
+   ],
+   [
+    "Carmen Spielberger",
+    "AUT"
+   ],
+   [
+    "Leonie Zegg",
+    "AUT"
+   ],
+   [
+    "Ali Nullmeyer",
+    "CAN"
+   ],
+   [
+    "Nika Tomsic",
+    "SLO"
+   ],
+   [
+    "Emily Schoepf",
+    "AUT"
+   ],
+   [
+    "Federica Brignone",
+    "ITA"
+   ],
+   [
+    "Giorgia Collomb",
+    "ITA"
+   ],
+   [
+    "Liv Moritz",
+    "USA"
+   ],
+   [
+    "Martina Dubovska",
+    "CZE"
+   ],
+   [
+    "Jasmin Mathis",
+    "SUI"
+   ],
+   [
+    "Stefanie Grob",
+    "SUI"
+   ],
+   [
+    "Lisa Grill",
+    "AUT"
+   ],
+   [
+    "Garance Meyer",
+    "FRA"
+   ],
+   [
+    "Sophie Nyberg",
+    "SWE"
+   ],
+   [
+    "Emy Charbonnier",
+    "FRA"
+   ],
+   [
+    "Anna Trocker",
+    "ITA"
+   ]
+  ],
+  "M": [
+   [
+    "Marco Odermatt",
+    "SUI"
+   ],
+   [
+    "Marco Schwarz",
+    "AUT"
+   ],
+   [
+    "Atle Lie McGrath",
+    "NOR"
+   ],
+   [
+    "Stefan Brennsteiner",
+    "AUT"
+   ],
+   [
+    "Thibaut Favrot",
+    "FRA"
+   ],
+   [
+    "Raphael Haaser",
+    "AUT"
+   ],
+   [
+    "Henrik Kristoffersen",
+    "NOR"
+   ],
+   [
+    "Alex Vinatzer",
+    "ITA"
+   ],
+   [
+    "Zan Kranjec",
+    "SLO"
+   ],
+   [
+    "Flavio Vitale",
+    "FRA"
+   ],
+   [
+    "Anton Grammel",
+    "GER"
+   ],
+   [
+    "Joan Verdu",
+    "AND"
+   ],
+   [
+    "Timon Haugan",
+    "NOR"
+   ],
+   [
+    "Loic Meillard",
+    "SUI"
+   ],
+   [
+    "Filip Zubcic",
+    "CRO"
+   ],
+   [
+    "Thomas Tumler",
+    "SUI"
+   ],
+   [
+    "Fabian Gratz",
+    "GER"
+   ],
+   [
+    "Alexis Pinturault",
+    "FRA"
+   ],
+   [
+    "Jonas Stockinger",
+    "GER"
+   ],
+   [
+    "Sam Maes",
+    "BEL"
+   ],
+   [
+    "River Radamus",
+    "USA"
+   ],
+   [
+    "Luca de Aliprandini",
+    "ITA"
+   ],
+   [
+    "Tormis Laine",
+    "EST"
+   ],
+   [
+    "Giovanni Borsotti",
+    "ITA"
+   ],
+   [
+    "Eirik Hystad Solberg",
+    "NOR"
+   ],
+   [
+    "Alban Elezi Cannaferina",
+    "FRA"
+   ],
+   [
+    "Alexander Schmid",
+    "GER"
+   ],
+   [
+    "Andreas Zampa",
+    "SVK"
+   ],
+   [
+    "Vincent Kriechmayr",
+    "AUT"
+   ],
+   [
+    "Luca Aerni",
+    "SUI"
+   ],
+   [
+    "Lucas Pinheiro Braathen",
+    "BRA"
+   ],
+   [
+    "Clement Noel",
+    "FRA"
+   ],
+   [
+    "Eduard Hallberg",
+    "FIN"
+   ],
+   [
+    "Laurie Taylor",
+    "GBR"
+   ],
+   [
+    "Paco Rassat",
+    "FRA"
+   ],
+   [
+    "Dave Ryding",
+    "GBR"
+   ],
+   [
+    "Steven Amiez",
+    "FRA"
+   ],
+   [
+    "Michael Matt",
+    "AUT"
+   ],
+   [
+    "Fabio Gstrein",
+    "AUT"
+   ],
+   [
+    "Manuel Feller",
+    "AUT"
+   ],
+   [
+    "Tobias Kastlunger",
+    "ITA"
+   ],
+   [
+    "Linus Strasser",
+    "GER"
+   ],
+   [
+    "Samuel Kolega",
+    "CRO"
+   ],
+   [
+    "Victor Muffat-Jeandet",
+    "FRA"
+   ],
+   [
+    "Tanguy Nef",
+    "SUI"
+   ],
+   [
+    "Daniel Yule",
+    "SUI"
+   ],
+   [
+    "Albert Popov",
+    "BUL"
+   ],
+   [
+    "Johannes Strolz",
+    "AUT"
+   ],
+   [
+    "Cooper Puckett",
+    "USA"
+   ],
+   [
+    "Billy Major",
+    "GBR"
+   ],
+   [
+    "Yohei Koyama",
+    "JPN"
+   ],
+   [
+    "Armand Marchant",
+    "BEL"
+   ],
+   [
+    "Dominik Raschner",
+    "AUT"
+   ],
+   [
+    "Simon Rueland",
+    "AUT"
+   ],
+   [
+    "Oscar Andreas Sandvik",
+    "NOR"
+   ],
+   [
+    "Tommaso Sala",
+    "ITA"
+   ],
+   [
+    "Stefan Babinsky",
+    "AUT"
+   ],
+   [
+    "Fredrik Moeller",
+    "NOR"
+   ],
+   [
+    "Lukas Feurstein",
+    "AUT"
+   ],
+   [
+    "Stefan Rogentin",
+    "SUI"
+   ],
+   [
+    "Guglielmo Bosca",
+    "ITA"
+   ],
+   [
+    "Franjo von Allmen",
+    "SUI"
+   ],
+   [
+    "Ryan Cochran-Siegle",
+    "USA"
+   ],
+   [
+    "Dominik Paris",
+    "ITA"
+   ],
+   [
+    "Miha Hrobat",
+    "SLO"
+   ],
+   [
+    "Giovanni Franzoni",
+    "ITA"
+   ],
+   [
+    "Daniel Hemetsberger",
+    "AUT"
+   ],
+   [
+    "James Crawford",
+    "CAN"
+   ],
+   [
+    "Adrian Smiseth Sejersted",
+    "NOR"
+   ],
+   [
+    "Simon Jocher",
+    "GER"
+   ],
+   [
+    "Alexis Monney",
+    "SUI"
+   ],
+   [
+    "Nicolo Molteni",
+    "ITA"
+   ],
+   [
+    "Kyle Negomir",
+    "USA"
+   ],
+   [
+    "Aleksander Aamodt Kilde",
+    "NOR"
+   ],
+   [
+    "Jan Zabystran",
+    "CZE"
+   ],
+   [
+    "Mattia Casse",
+    "ITA"
+   ],
+   [
+    "Nils Allegre",
+    "FRA"
+   ],
+   [
+    "Christof Innerhofer",
+    "ITA"
+   ],
+   [
+    "Justin Murisier",
+    "SUI"
+   ],
+   [
+    "Leo Anguenot",
+    "FRA"
+   ],
+   [
+    "Patrick Feurstein",
+    "AUT"
+   ],
+   [
+    "Loevan Parand",
+    "FRA"
+   ],
+   [
+    "Albert Ortega Fornesa",
+    "ESP"
+   ],
+   [
+    "Joshua Sturm",
+    "AUT"
+   ],
+   [
+    "Erik Read",
+    "CAN"
+   ],
+   [
+    "Stefan Eichberger",
+    "AUT"
+   ],
+   [
+    "Cameron Alexander",
+    "CAN"
+   ],
+   [
+    "Maxence Muzaton",
+    "FRA"
+   ],
+   [
+    "Florian Schieder",
+    "ITA"
+   ],
+   [
+    "Brodie Seger",
+    "CAN"
+   ],
+   [
+    "Elian Lehto",
+    "FIN"
+   ],
+   [
+    "Niels Hintermann",
+    "SUI"
+   ],
+   [
+    "Romed Baumann",
+    "GER"
+   ],
+   [
+    "Marco Kohler",
+    "SUI"
+   ],
+   [
+    "Nejc Naralocnik",
+    "SLO"
+   ],
+   [
+    "Bryce Bennett",
+    "USA"
+   ],
+   [
+    "Jared Goldberg",
+    "USA"
+   ],
+   [
+    "Lenz Haechler",
+    "SUI"
+   ],
+   [
+    "William Hansson",
+    "SWE"
+   ],
+   [
+    "Ryder Sarchett",
+    "USA"
+   ],
+   [
+    "Filippo Della Vite",
+    "ITA"
+   ],
+   [
+    "George Steffey",
+    "USA"
+   ],
+   [
+    "Hans Grahl-Madsen",
+    "NOR"
+   ],
+   [
+    "Matthias Iten",
+    "SUI"
+   ],
+   [
+    "Auguste Aulnette",
+    "FRA"
+   ],
+   [
+    "Hugo Desgrippes",
+    "FRA"
+   ],
+   [
+    "Ramon Zenhaeusern",
+    "SUI"
+   ],
+   [
+    "Nils Alphand",
+    "FRA"
+   ],
+   [
+    "Benjamin Jacques Alliod",
+    "ITA"
+   ],
+   [
+    "Stefan Rieser",
+    "AUT"
+   ],
+   [
+    "Alessio Miggiano",
+    "SUI"
+   ],
+   [
+    "Luis Vogt",
+    "GER"
+   ],
+   [
+    "Adrien Theaux",
+    "FRA"
+   ],
+   [
+    "Lars Roesti",
+    "SUI"
+   ],
+   [
+    "Livio Hiltbrand",
+    "SUI"
+   ],
+   [
+    "Matthieu Bailet",
+    "FRA"
+   ],
+   [
+    "Riley Seger",
+    "CAN"
+   ],
+   [
+    "Jeffrey Read",
+    "CAN"
+   ],
+   [
+    "Raphael Lessard",
+    "CAN"
+   ],
+   [
+    "Vincent Wieser",
+    "AUT"
+   ],
+   [
+    "Sam Morse",
+    "USA"
+   ],
+   [
+    "Andreas Ploier",
+    "AUT"
+   ],
+   [
+    "Blaise Giezendanner",
+    "FRA"
+   ],
+   [
+    "Sam Alphand",
+    "FRA"
+   ],
+   [
+    "Henrik von Appen",
+    "CHI"
+   ],
+   [
+    "Felix Monsen",
+    "SWE"
+   ],
+   [
+    "Fabian Ax Swartz",
+    "SWE"
+   ],
+   [
+    "Aleix Aubert Serracanta",
+    "ESP"
+   ],
+   [
+    "Sebastian Holzmann",
+    "GER"
+   ],
+   [
+    "Jesper Pohjolainen",
+    "FIN"
+   ],
+   [
+    "Jett Seymour",
+    "USA"
+   ],
+   [
+    "Max Perathoner",
+    "ITA"
+   ],
+   [
+    "Joaquim Salarich Baucells",
+    "ESP"
+   ],
+   [
+    "Antoine Azzolin",
+    "FRA"
+   ],
+   [
+    "Matteo Canins",
+    "ITA"
+   ],
+   [
+    "Marc Rochat",
+    "SUI"
+   ],
+   [
+    "Shiro Aihara",
+    "JPN"
+   ],
+   [
+    "Corrado Barbera",
+    "ITA"
+   ],
+   [
+    "Martin Cater",
+    "SLO"
+   ],
+   [
+    "Adrian Pertl",
+    "AUT"
+   ],
+   [
+    "Istok Rodes",
+    "CRO"
+   ],
+   [
+    "Gustav Wissting",
+    "SWE"
+   ],
+   [
+    "Charles Gamel Seigneur",
+    "FRA"
+   ],
+   [
+    "Erik Arvidsson",
+    "USA"
+   ],
+   [
+    "Wiley Maple",
+    "USA"
+   ],
+   [
+    "Manuel Traninger",
+    "AUT"
+   ],
+   [
+    "Kristoffer Jakobsen",
+    "SWE"
+   ],
+   [
+    "Benjamin Ritchie",
+    "USA"
+   ],
+   [
+    "Juan Del Campo Hernandez",
+    "ESP"
+   ],
+   [
+    "Guerlain Favre",
+    "FRA"
+   ],
+   [
+    "Simon Talacci",
+    "ITA"
+   ],
+   [
+    "Luke Winters",
+    "USA"
+   ],
+   [
+    "Theodor Braekken",
+    "NOR"
+   ],
+   [
+    "Fadri Janutin",
+    "SUI"
+   ],
+   [
+    "Bridger Gile",
+    "USA"
+   ],
+   [
+    "Tommaso Saccardi",
+    "ITA"
+   ],
+   [
+    "Arnaud Boisset",
+    "SUI"
+   ],
+   [
+    "Victor Haghighat",
+    "FRA"
+   ],
+   [
+    "Rasmus Bakkevig",
+    "NOR"
+   ]
+  ]
+ },
+ "venues": [
+  "W-GS-soelden",
+  "M-GS-soelden",
+  "W-SL-levi",
+  "M-SL-levi",
+  "M-SL-gurgl",
+  "W-SL-gurgl",
+  "M-SG-copper-mountain-co",
+  "M-GS-copper-mountain-co",
+  "W-GS-copper-mountain-co",
+  "W-SL-copper-mountain-co",
+  "M-DH-beaver-creek",
+  "M-SG-beaver-creek",
+  "M-GS-beaver-creek",
+  "W-GS-tremblant",
+  "W-DH-st-moritz",
+  "W-SG-st-moritz",
+  "M-GS-val-d-isere",
+  "M-SL-val-d-isere",
+  "W-SL-courchevel",
+  "M-DH-groeden",
+  "M-SG-groeden",
+  "W-DH-val-d-isere",
+  "W-SG-val-d-isere",
+  "M-GS-alta-badia",
+  "M-SL-alta-badia",
+  "M-SG-livigno",
+  "W-GS-semmering",
+  "W-SL-semmering",
+  "W-GS-kranjska-gora",
+  "W-SL-kranjska-gora",
+  "M-SL-madonna-di-campiglio",
+  "W-DH-zauchensee",
+  "M-GS-adelboden",
+  "M-SL-adelboden",
+  "W-SL-flachau",
+  "M-SG-wengen",
+  "M-DH-wengen",
+  "M-SL-wengen",
+  "W-DH-tarvisio",
+  "W-SG-tarvisio",
+  "W-GS-kronplatz",
+  "M-SG-kitzbuehel",
+  "M-DH-kitzbuehel",
+  "M-SL-kitzbuehel",
+  "W-GS-spindleruv-mlyn",
+  "W-SL-spindleruv-mlyn",
+  "M-GS-schladming",
+  "M-SL-schladming",
+  "W-SG-crans-montana",
+  "M-DH-crans-montana",
+  "W-DH-soldeu",
+  "W-SG-soldeu",
+  "M-DH-garmisch-partenkirchen",
+  "W-DH-val-di-fassa",
+  "W-SG-val-di-fassa",
+  "M-GS-kranjska-gora",
+  "M-SL-kranjska-gora",
+  "M-DH-courchevel",
+  "W-GS-are",
+  "W-SL-are",
+  "M-DH-lillehammer",
+  "W-DH-lillehammer",
+  "W-SG-lillehammer",
+  "M-SG-lillehammer",
+  "M-GS-lillehammer",
+  "W-SL-lillehammer",
+  "W-GS-lillehammer",
+  "M-SL-lillehammer",
+  "W-GS-killington",
+  "W-SL-killington",
+  "W-DH-beaver-creek",
+  "W-SG-beaver-creek",
+  "M-DH-bormio",
+  "M-SG-bormio",
+  "W-DH-st-anton",
+  "W-SG-st-anton",
+  "W-DH-cortina-d-ampezzo",
+  "W-SG-cortina-d-ampezzo",
+  "W-DH-garmisch-partenkirchen",
+  "W-SG-garmisch-partenkirchen",
+  "M-SG-crans-montana",
+  "W-GS-sestriere",
+  "W-SL-sestriere",
+  "W-DH-kvitfjell",
+  "W-SG-kvitfjell",
+  "M-DH-kvitfjell",
+  "M-SG-kvitfjell",
+  "W-SG-la-thuile",
+  "M-GS-hafjell",
+  "M-SL-hafjell",
+  "M-DH-sun-valley",
+  "W-DH-sun-valley",
+  "W-SG-sun-valley",
+  "M-SG-sun-valley",
+  "W-GS-sun-valley",
+  "M-GS-sun-valley",
+  "W-SL-sun-valley",
+  "M-SL-sun-valley",
+  "W-SG-saalbach",
+  "M-SG-saalbach",
+  "W-DH-saalbach",
+  "M-DH-saalbach",
+  "W-GS-saalbach",
+  "M-GS-saalbach",
+  "M-SL-saalbach",
+  "W-SL-saalbach",
+  "M-DH-zermatt-cervinia",
+  "W-DH-zermatt-cervinia",
+  "W-GS-lienz",
+  "W-SL-lienz",
+  "W-SG-altenmarkt-zauchensee",
+  "W-DH-altenmarkt-zauchensee",
+  "W-GS-jasna",
+  "W-SL-jasna",
+  "M-SG-garmisch-partenkirchen",
+  "M-SL-chamonix",
+  "W-GS-soldeu",
+  "W-SL-soldeu",
+  "M-GS-bansko",
+  "M-SL-bansko",
+  "W-DH-crans-montana",
+  "M-GS-palisades-tahoe",
+  "M-SL-palisades-tahoe",
+  "M-GS-aspen",
+  "M-SL-aspen",
+  "M-DH-lake-louise",
+  "M-SG-lake-louise",
+  "W-DH-lake-louise",
+  "W-SG-lake-louise",
+  "M-SL-garmisch-partenkirchen",
+  "W-SL-zagreb",
+  "M-SG-cortina-d-ampezzo",
+  "M-DH-aspen",
+  "M-SG-aspen",
+  "M-DH-grandvalira-soldeu-el-tarter",
+  "W-DH-grandvalira-soldeu-el-tarter",
+  "W-SG-grandvalira-soldeu-el-tarter",
+  "M-SG-grandvalira-soldeu-el-tarter",
+  "M-GS-grandvalira-soldeu-el-tarter",
+  "W-SL-grandvalira-soldeu-el-tarter",
+  "W-GS-grandvalira-soldeu-el-tarter",
+  "M-SL-grandvalira-soldeu-el-tarter",
+  "W-SG-courchevel",
+  "M-SG-courchevel",
+  "W-DH-courchevel",
+  "W-GS-courchevel",
+  "M-GS-courchevel",
+  "M-SL-courchevel",
+  "W-SL-schladming",
+  "W-SG-lenzerheide",
+  "W-GS-lenzerheide",
+  "M-SL-flachau",
+  "M-GS-santa-caterina",
+  "M-SG-val-d-isere",
+  "M-DH-val-d-isere",
+  "M-SL-zagreb",
+  "M-DH-saalbach-hinterglemm",
+  "M-SG-saalbach-hinterglemm",
+  "W-DH-lenzerheide",
+  "M-SG-lenzerheide",
+  "M-GS-lenzerheide",
+  "W-SL-lenzerheide",
+  "M-SL-lenzerheide",
+  "M-DH-cortina-d-ampezzo",
+  "W-GS-cortina-d-ampezzo",
+  "M-GS-cortina-d-ampezzo",
+  "W-SL-cortina-d-ampezzo",
+  "M-SL-cortina-d-ampezzo",
+  "W-DH-bansko",
+  "W-SG-bansko",
+  "W-SG-rosa-khutor",
+  "M-GS-garmisch-partenkirchen",
+  "M-GS-chamonix",
+  "M-GS-niigata-yuzawa-naeba",
+  "M-SL-niigata-yuzawa-naeba",
+  "M-SG-hinterstoder",
+  "M-GS-hinterstoder",
+  "W-SL-st-moritz",
+  "W-DH-groeden",
+  "W-SG-groeden",
+  "M-GS-saalbach-hinterglemm",
+  "M-SL-saalbach-hinterglemm",
+  "W-GS-maribor",
+  "W-SL-maribor",
+  "M-SG-bansko",
+  "W-SG-are",
+  "M-SG-are",
+  "W-DH-are",
+  "M-DH-are",
+  "M-GS-are",
+  "M-SL-are",
+  "W-SG-bad-kleinkirchheim",
+  "W-DH-bad-kleinkirchheim",
+  "W-GS-ofterschwang",
+  "W-SL-ofterschwang",
+  "M-SG-santa-caterina",
+  "M-DH-santa-caterina",
+  "W-DH-jeongseon",
+  "W-SG-jeongseon",
+  "W-GS-squaw-valley",
+  "W-SL-squaw-valley",
+  "W-DH-aspen",
+  "W-SG-aspen",
+  "W-SL-aspen",
+  "W-GS-aspen",
+  "M-SG-st-moritz",
+  "M-DH-st-moritz",
+  "W-GS-st-moritz",
+  "M-GS-st-moritz",
+  "M-SL-st-moritz"
+ ]
+}
