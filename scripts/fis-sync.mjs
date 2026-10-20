@@ -238,7 +238,7 @@ async function main(){
   if(process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY){
     const rows = races.map(r => ({id:r.id, gender:r.gender, disc:r.disc, place:r.place, start:r.start, wm:r.wm, status:r.status}));
     const res = await fetch(`${process.env.SUPABASE_URL}/rest/v1/races?on_conflict=id`, {method:"POST",
-      headers:{apikey:process.env.SUPABASE_SERVICE_ROLE_KEY, authorization:`Bearer ${process.env.SUPABASE_SERVICE_ROLE_KEY}`,
+      headers:{apikey:process.env.SUPABASE_SERVICE_ROLE_KEY, ...(process.env.SUPABASE_SERVICE_ROLE_KEY.startsWith("sb_") ? {} : {authorization:`Bearer ${process.env.SUPABASE_SERVICE_ROLE_KEY}`}),
         "content-type":"application/json", prefer:"resolution=merge-duplicates,return=minimal"}, body:JSON.stringify(rows)});
     console.log(`supabase races upsert: ${res.status} ${res.ok ? "" : await res.text()}`);
     if(!res.ok) process.exitCode = 1;

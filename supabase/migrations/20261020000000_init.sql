@@ -1,6 +1,5 @@
 -- Ski-Tippspiel: Datenbank für Spieler und Tipps.
--- Einmal im Supabase-Dashboard unter "SQL Editor" ausführen.
--- Danach den Gruppencode setzen (letzte Zeile anpassen).
+-- Einmal im Supabase-Dashboard unter "SQL Editor" ausführen. Am Ende wird der Gruppencode angezeigt.
 
 create extension if not exists pgcrypto with schema extensions;
 
@@ -74,7 +73,7 @@ declare
 begin
   if v_key = '' or length(v_key) > 30 then raise exception 'Bitte einen Namen mit höchstens 30 Zeichen.'; end if;
   if p_pin !~ '^[0-9]{4}$' then raise exception 'Die PIN muss aus 4 Ziffern bestehen.'; end if;
-  if p_code is distinct from (select value from app_config where key = 'join_code') then
+  if upper(btrim(coalesce(p_code,''))) is distinct from (select upper(value) from app_config where key = 'join_code') then
     raise exception 'Der Gruppencode stimmt nicht.';
   end if;
 
@@ -138,6 +137,10 @@ grant execute on function public.join_or_login(text,text,text) to anon;
 grant execute on function public.save_tip(uuid,text,text,text[]) to anon;
 grant execute on function public.get_state(uuid) to anon;
 
--- Gruppencode für deine Freunde (anpassen und ausführen):
-insert into public.app_config(key, value) values ('join_code', 'PISTE2027')
-on conflict (key) do update set value = excluded.value;
+-- Gruppencode: wird zufällig erzeugt (das Repo ist öffentlich, darum steht er nicht hier).
+-- Ändern: update public.app_config set value = 'MEINCODE' where key = 'join_code';
+insert into public.app_config(key, value)
+values ('join_code', upper(substr(md5(random()::text), 1, 6)))
+on conflict (key) do nothing;
+
+select value as gruppencode from public.app_config where key = 'join_code';
