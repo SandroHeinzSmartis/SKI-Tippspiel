@@ -1,0 +1,12 @@
+{
+  "name": "ski-tippspiel",
+  "private": true,
+  "description": "Tippspiel für den FIS Ski-Alpin-Weltcup 2026/27",
+  "scripts": {
+    "sync": "node scripts/fis-sync.mjs",
+    "serve": "python3 -m http.server 8080"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0"
+  }
+}

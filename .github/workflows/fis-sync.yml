@@ -1,0 +1,45 @@
+name: FIS-Daten abgleichen
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"   # alle 2 Stunden (UTC)
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: "Ausführliche Logs"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fis-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: FIS abfragen
+        run: node scripts/fis-sync.mjs
+        env:
+          DEBUG: ${{ inputs.debug && '1' || '' }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      - name: Daten committen
+        run: |
+          git config user.name "fis-sync"
+          git config user.email "fis-sync@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "Keine Änderungen"; exit 0; fi
+          git commit -m "FIS-Daten aktualisiert"
+          git pull --rebase origin ${{ github.ref_name }}
+          git push
