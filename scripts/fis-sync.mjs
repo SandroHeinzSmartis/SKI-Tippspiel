@@ -115,7 +115,7 @@ async function raceDetails(raceid){
   const iso = tzd.attr("data-iso-date") || null;
   const date = tzd.attr("data-date") || parseDate($(".date__full").first().text()) || parseDate($(".event-header").text()) || parseDate($("body").text().slice(0, 4000));
   const gender = /\b(men|man)'?s?\b/i.test(kind) && !/women|ladies/i.test(kind) ? "M" : /women|ladies/i.test(kind) ? "W" : null;
-  const disc = (DISC.find(([re]) => re.test(kind)) || [])[1] || null;
+  const disc = /training/i.test(kind) ? null : (DISC.find(([re]) => re.test(kind)) || [])[1] || null;
   const wm = /championships/i.test(sub + " " + kind);
   const res = [];
   $("a.table-row").each((_, a) => {
@@ -123,8 +123,9 @@ async function raceDetails(raceid){
     const nameEl = row.find(".justify-left.bold").first();
     const name = clean(nameEl.text());
     if(!name) return;
-    const cells = row.find(".g-row").first().children().map((_, c) => clean($(c).text())).get();
-    const rank = Number((cells.find(c => /^\d+$/.test(c)) ?? "").trim()) || null;
+    // Blatt-Divs der Zeile: das erste ist der Rang (leer bei DNF/DSQ)
+    const cells = row.find("div").filter((_, c) => $(c).children("div").length === 0).map((_, c) => clean($(c).text())).get();
+    const rank = /^\d+$/.test(cells[0] || "") ? Number(cells[0]) : null;
     const nat = clean(row.find(".country__name-short").first().text()) || null;
     res.push([rank, niceName(name), nat]);
     if(DEBUG && !raceDetails.shown){ raceDetails.shown = true; console.log("first result row:", cells, name, nat, $.html(a).slice(0, 2500)); }
@@ -169,6 +170,13 @@ function zonedToUtc(date, time, tz){
 
 /* ---------- main ---------- */
 async function main(){
+  if(process.env.RACE_TEST){
+    const r = await raceDetails(process.env.RACE_TEST);
+    console.log(JSON.stringify({...r, results: r.results.slice(0, 5)}, null, 1));
+    const html = await get(`${BASE}/general/results.html?sectorcode=AL&raceid=${process.env.RACE_TEST}`);
+    const i = html.indexOf('class="table-row"'); console.log(html.slice(i - 200, i + 3000));
+    return;
+  }
   const seeds = await readJson(path.join(DATA, "start-times.json"), {});
   const overrides = await readJson(path.join(DATA, "overrides.json"), {});
   const seasons = Array.from({length:HISTORY_SEASONS + 1}, (_, i) => SEASON - i);
