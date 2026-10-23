@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T16:56:30.251Z",
+ "updated": "2026-10-23T19:01:49.129Z",
  "season": 2027,
  "races": [
   {
@@ -15,9 +15,17 @@
    "wm": false,
    "kind": "Women's Giant Slalom",
    "venue": "W-GS-soelden",
-   "status": "scheduled",
-   "podium": null,
-   "podiumNat": null
+   "status": "done",
+   "podium": [
+    "Alice Head Robinson",
+    "Julia Rossignol Scheib",
+    "Sara Head Hector"
+   ],
+   "podiumNat": [
+    "NZL",
+    "AUT",
+    "SWE"
+   ]
   },
   {
    "id": "131578",
@@ -1518,7 +1526,312 @@
  ],
  "standings": {
   "cur": {
-   "W": {},
+   "W": {
+    "GS": [
+     {
+      "name": "Alice Head Robinson",
+      "nat": "NZL",
+      "pts": 100
+     },
+     {
+      "name": "Julia Rossignol Scheib",
+      "nat": "AUT",
+      "pts": 80
+     },
+     {
+      "name": "Sara Head Hector",
+      "nat": "SWE",
+      "pts": 60
+     },
+     {
+      "name": "Thea Louise Rossignol Stjernesund",
+      "nat": "NOR",
+      "pts": 50
+     },
+     {
+      "name": "Mikaela Atomic Shiffrin",
+      "nat": "USA",
+      "pts": 45
+     },
+     {
+      "name": "Paula Van Deer Moltzan",
+      "nat": "USA",
+      "pts": 40
+     },
+     {
+      "name": "Camille Head Rast",
+      "nat": "SUI",
+      "pts": 36
+     },
+     {
+      "name": "Britt Dynastar Richardson",
+      "nat": "CAN",
+      "pts": 32
+     },
+     {
+      "name": "Zrinka Atomic Ljutic",
+      "nat": "CRO",
+      "pts": 29
+     },
+     {
+      "name": "Lara Head Colturi",
+      "nat": "ALB",
+      "pts": 26
+     },
+     {
+      "name": "Mina Fuerst Atomic Holtmann",
+      "nat": "NOR",
+      "pts": 24
+     },
+     {
+      "name": "Lara Fischer Della Mea",
+      "nat": "ITA",
+      "pts": 22
+     },
+     {
+      "name": "Lena Head Duerr",
+      "nat": "GER",
+      "pts": 20
+     },
+     {
+      "name": "Nina Rossignol O'Brien",
+      "nat": "USA",
+      "pts": 18
+     },
+     {
+      "name": "Maryna Atomic Gasienica-Daniel",
+      "nat": "POL",
+      "pts": 16
+     },
+     {
+      "name": "Emma Head Aicher",
+      "nat": "GER",
+      "pts": 15
+     },
+     {
+      "name": "Wendy Head Holdener",
+      "nat": "SUI",
+      "pts": 14
+     },
+     {
+      "name": "Petra Rossignol Vlhova",
+      "nat": "SVK",
+      "pts": 13
+     },
+     {
+      "name": "Stephanie Head Brunner",
+      "nat": "AUT",
+      "pts": 12
+     },
+     {
+      "name": "Neja Rossignol Dvornik",
+      "nat": "SLO",
+      "pts": 11
+     },
+     {
+      "name": "Asja Salomon Zenere",
+      "nat": "ITA",
+      "pts": 10
+     },
+     {
+      "name": "Vanessa Head Kasper",
+      "nat": "SUI",
+      "pts": 9
+     },
+     {
+      "name": "Head Hurt A J",
+      "nat": "USA",
+      "pts": 8
+     },
+     {
+      "name": "Estelle Head Alphand",
+      "nat": "SWE",
+      "pts": 7
+     },
+     {
+      "name": "Sue Atomic Piller",
+      "nat": "SUI",
+      "pts": 6
+     },
+     {
+      "name": "Madeleine Atomic Sylvester-Davik",
+      "nat": "NOR",
+      "pts": 5
+     },
+     {
+      "name": "Elisabeth Rossignol Bocock",
+      "nat": "USA",
+      "pts": 4
+     },
+     {
+      "name": "Marta Head Bassino",
+      "nat": "ITA",
+      "pts": 3
+     },
+     {
+      "name": "Franziska Atomic Gritsch",
+      "nat": "AUT",
+      "pts": 2
+     },
+     {
+      "name": "Hilma Head Loevblom",
+      "nat": "SWE",
+      "pts": 1
+     }
+    ],
+    "OVR": [
+     {
+      "name": "Alice Head Robinson",
+      "nat": "NZL",
+      "pts": 100
+     },
+     {
+      "name": "Julia Rossignol Scheib",
+      "nat": "AUT",
+      "pts": 80
+     },
+     {
+      "name": "Sara Head Hector",
+      "nat": "SWE",
+      "pts": 60
+     },
+     {
+      "name": "Thea Louise Rossignol Stjernesund",
+      "nat": "NOR",
+      "pts": 50
+     },
+     {
+      "name": "Mikaela Atomic Shiffrin",
+      "nat": "USA",
+      "pts": 45
+     },
+     {
+      "name": "Paula Van Deer Moltzan",
+      "nat": "USA",
+      "pts": 40
+     },
+     {
+      "name": "Camille Head Rast",
+      "nat": "SUI",
+      "pts": 36
+     },
+     {
+      "name": "Britt Dynastar Richardson",
+      "nat": "CAN",
+      "pts": 32
+     },
+     {
+      "name": "Zrinka Atomic Ljutic",
+      "nat": "CRO",
+      "pts": 29
+     },
+     {
+      "name": "Lara Head Colturi",
+      "nat": "ALB",
+      "pts": 26
+     },
+     {
+      "name": "Mina Fuerst Atomic Holtmann",
+      "nat": "NOR",
+      "pts": 24
+     },
+     {
+      "name": "Lara Fischer Della Mea",
+      "nat": "ITA",
+      "pts": 22
+     },
+     {
+      "name": "Lena Head Duerr",
+      "nat": "GER",
+      "pts": 20
+     },
+     {
+      "name": "Nina Rossignol O'Brien",
+      "nat": "USA",
+      "pts": 18
+     },
+     {
+      "name": "Maryna Atomic Gasienica-Daniel",
+      "nat": "POL",
+      "pts": 16
+     },
+     {
+      "name": "Emma Head Aicher",
+      "nat": "GER",
+      "pts": 15
+     },
+     {
+      "name": "Wendy Head Holdener",
+      "nat": "SUI",
+      "pts": 14
+     },
+     {
+      "name": "Petra Rossignol Vlhova",
+      "nat": "SVK",
+      "pts": 13
+     },
+     {
+      "name": "Stephanie Head Brunner",
+      "nat": "AUT",
+      "pts": 12
+     },
+     {
+      "name": "Neja Rossignol Dvornik",
+      "nat": "SLO",
+      "pts": 11
+     },
+     {
+      "name": "Asja Salomon Zenere",
+      "nat": "ITA",
+      "pts": 10
+     },
+     {
+      "name": "Vanessa Head Kasper",
+      "nat": "SUI",
+      "pts": 9
+     },
+     {
+      "name": "Head Hurt A J",
+      "nat": "USA",
+      "pts": 8
+     },
+     {
+      "name": "Estelle Head Alphand",
+      "nat": "SWE",
+      "pts": 7
+     },
+     {
+      "name": "Sue Atomic Piller",
+      "nat": "SUI",
+      "pts": 6
+     },
+     {
+      "name": "Madeleine Atomic Sylvester-Davik",
+      "nat": "NOR",
+      "pts": 5
+     },
+     {
+      "name": "Elisabeth Rossignol Bocock",
+      "nat": "USA",
+      "pts": 4
+     },
+     {
+      "name": "Marta Head Bassino",
+      "nat": "ITA",
+      "pts": 3
+     },
+     {
+      "name": "Franziska Atomic Gritsch",
+      "nat": "AUT",
+      "pts": 2
+     },
+     {
+      "name": "Hilma Head Loevblom",
+      "nat": "SWE",
+      "pts": 1
+     }
+    ]
+   },
    "M": {}
   },
   "prev": {
@@ -3550,6 +3863,126 @@
  },
  "athletes": {
   "W": [
+   [
+    "Alice Head Robinson",
+    "NZL"
+   ],
+   [
+    "Julia Rossignol Scheib",
+    "AUT"
+   ],
+   [
+    "Sara Head Hector",
+    "SWE"
+   ],
+   [
+    "Thea Louise Rossignol Stjernesund",
+    "NOR"
+   ],
+   [
+    "Mikaela Atomic Shiffrin",
+    "USA"
+   ],
+   [
+    "Paula Van Deer Moltzan",
+    "USA"
+   ],
+   [
+    "Camille Head Rast",
+    "SUI"
+   ],
+   [
+    "Britt Dynastar Richardson",
+    "CAN"
+   ],
+   [
+    "Zrinka Atomic Ljutic",
+    "CRO"
+   ],
+   [
+    "Lara Head Colturi",
+    "ALB"
+   ],
+   [
+    "Mina Fuerst Atomic Holtmann",
+    "NOR"
+   ],
+   [
+    "Lara Fischer Della Mea",
+    "ITA"
+   ],
+   [
+    "Lena Head Duerr",
+    "GER"
+   ],
+   [
+    "Nina Rossignol O'Brien",
+    "USA"
+   ],
+   [
+    "Maryna Atomic Gasienica-Daniel",
+    "POL"
+   ],
+   [
+    "Emma Head Aicher",
+    "GER"
+   ],
+   [
+    "Wendy Head Holdener",
+    "SUI"
+   ],
+   [
+    "Petra Rossignol Vlhova",
+    "SVK"
+   ],
+   [
+    "Stephanie Head Brunner",
+    "AUT"
+   ],
+   [
+    "Neja Rossignol Dvornik",
+    "SLO"
+   ],
+   [
+    "Asja Salomon Zenere",
+    "ITA"
+   ],
+   [
+    "Vanessa Head Kasper",
+    "SUI"
+   ],
+   [
+    "Head Hurt A J",
+    "USA"
+   ],
+   [
+    "Estelle Head Alphand",
+    "SWE"
+   ],
+   [
+    "Sue Atomic Piller",
+    "SUI"
+   ],
+   [
+    "Madeleine Atomic Sylvester-Davik",
+    "NOR"
+   ],
+   [
+    "Elisabeth Rossignol Bocock",
+    "USA"
+   ],
+   [
+    "Marta Head Bassino",
+    "ITA"
+   ],
+   [
+    "Franziska Atomic Gritsch",
+    "AUT"
+   ],
+   [
+    "Hilma Head Loevblom",
+    "SWE"
+   ],
    [
     "Julia Scheib",
     "AUT"
