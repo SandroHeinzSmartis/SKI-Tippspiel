@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T04:52:38.638Z",
+ "updated": "2026-10-24T06:59:52.426Z",
  "season": 2027,
  "races": [
   {
@@ -10,7 +10,7 @@
    "place": "Soelden",
    "nation": "AUT",
    "date": "2026-10-24",
-   "start": "2026-10-24T08:00:00.000Z",
+   "start": "2026-10-24T08:30:00.000Z",
    "timeKnown": true,
    "wm": false,
    "kind": "Women's Giant Slalom",
