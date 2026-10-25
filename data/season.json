@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:59:34.698Z",
+ "updated": "2026-10-25T14:51:32.104Z",
  "season": 2027,
  "races": [
   {
@@ -42,14 +42,14 @@
    "venue": "M-GS-soelden",
    "status": "done",
    "podium": [
-    "Anton Head Grammel",
-    "Rasmus Atomic Bakkevig",
-    "Alban Rossignol Elezi Cannaferina"
+    "Lucas Atomic Pinheiro Braathen",
+    "Loic Rossignol Meillard",
+    "Marco Stoeckli Odermatt"
    ],
    "podiumNat": [
-    "GER",
-    "NOR",
-    "FRA"
+    "BRA",
+    "SUI",
+    "SUI"
    ]
   },
   {
@@ -1843,93 +1843,93 @@
    "M": {
     "GS": [
      {
-      "name": "Anton Head Grammel",
-      "nat": "GER",
+      "name": "Lucas Atomic Pinheiro Braathen",
+      "nat": "BRA",
       "pts": 100
      },
      {
-      "name": "Rasmus Atomic Bakkevig",
-      "nat": "NOR",
+      "name": "Loic Rossignol Meillard",
+      "nat": "SUI",
       "pts": 80
      },
      {
-      "name": "Alban Rossignol Elezi Cannaferina",
-      "nat": "FRA",
+      "name": "Marco Stoeckli Odermatt",
+      "nat": "SUI",
       "pts": 60
-     },
-     {
-      "name": "Lenz Stoeckli Haechler",
-      "nat": "SUI",
-      "pts": 50
-     },
-     {
-      "name": "Eduard Fischer Hallberg",
-      "nat": "FIN",
-      "pts": 45
-     },
-     {
-      "name": "Thomas Stoeckli Tumler",
-      "nat": "SUI",
-      "pts": 40
-     },
-     {
-      "name": "Zan Nordica Kranjec",
-      "nat": "SLO",
-      "pts": 36
-     },
-     {
-      "name": "Leo Rossignol Anguenot",
-      "nat": "FRA",
-      "pts": 32
-     },
-     {
-      "name": "Hans Van Deer Grahl-Madsen",
-      "nat": "NOR",
-      "pts": 29
-     },
-     {
-      "name": "Freddy Dynastar Carrick-Smith",
-      "nat": "GBR",
-      "pts": 26
-     },
-     {
-      "name": "Raphael Atomic Haaser",
-      "nat": "AUT",
-      "pts": 24
-     },
-     {
-      "name": "Giovanni Rossignol Franzoni",
-      "nat": "ITA",
-      "pts": 22
-     },
-     {
-      "name": "Oscar Andreas - Sandvik",
-      "nat": "NOR",
-      "pts": 20
-     },
-     {
-      "name": "Joshua Atomic Sturm",
-      "nat": "AUT",
-      "pts": 18
      },
      {
       "name": "River Rossignol Radamus",
       "nat": "USA",
-      "pts": 16
+      "pts": 50
      },
      {
-      "name": "Patrick Rossignol Feurstein",
+      "name": "Raphael Atomic Haaser",
       "nat": "AUT",
-      "pts": 15
+      "pts": 45
+     },
+     {
+      "name": "Fabian Fischer Gratz",
+      "nat": "GER",
+      "pts": 40
      },
      {
       "name": "Alex Atomic Vinatzer",
       "nat": "ITA",
-      "pts": 14
+      "pts": 36
      },
      {
       "name": "Eirik Hystad Van Deer Solberg",
       "nat": "NOR",
+      "pts": 32
+     },
+     {
+      "name": "Leo Rossignol Anguenot",
+      "nat": "FRA",
+      "pts": 29
+     },
+     {
+      "name": "Patrick Rossignol Feurstein",
+      "nat": "AUT",
+      "pts": 26
+     },
+     {
+      "name": "Stefan Fischer Brennsteiner",
+      "nat": "AUT",
+      "pts": 24
+     },
+     {
+      "name": "Freddy Dynastar Carrick-Smith",
+      "nat": "GBR",
+      "pts": 22
+     },
+     {
+      "name": "Thibaut Dynastar Favrot",
+      "nat": "FRA",
+      "pts": 20
+     },
+     {
+      "name": "Rasmus Atomic Bakkevig",
+      "nat": "NOR",
+      "pts": 18
+     },
+     {
+      "name": "Anton Head Grammel",
+      "nat": "GER",
+      "pts": 16
+     },
+     {
+      "name": "Eduard Fischer Hallberg",
+      "nat": "FIN",
+      "pts": 15
+     },
+     {
+      "name": "Joshua Atomic Sturm",
+      "nat": "AUT",
+      "pts": 14
+     },
+     {
+      "name": "Zan Nordica Kranjec",
+      "nat": "SLO",
       "pts": 13
      },
      {
@@ -1943,145 +1943,125 @@
       "pts": 11
      },
      {
-      "name": "Thibaut Dynastar Favrot",
-      "nat": "FRA",
-      "pts": 10
-     },
-     {
       "name": "Alexander Head Schmid",
       "nat": "GER",
-      "pts": 9
-     },
-     {
-      "name": "Giovanni Rossignol Borsotti",
-      "nat": "ITA",
-      "pts": 8
+      "pts": 10
      },
      {
       "name": "Henrik Head Kristoffersen",
       "nat": "NOR",
+      "pts": 9
+     },
+     {
+      "name": "Thomas Stoeckli Tumler",
+      "nat": "SUI",
+      "pts": 8
+     },
+     {
+      "name": "Alban Rossignol Elezi Cannaferina",
+      "nat": "FRA",
       "pts": 7
      },
      {
-      "name": "Fabian Fischer Gratz",
-      "nat": "GER",
+      "name": "Lenz Stoeckli Haechler",
+      "nat": "SUI",
       "pts": 6
      },
      {
-      "name": "Atle Lie Head McGrath",
+      "name": "Hans Van Deer Grahl-Madsen",
       "nat": "NOR",
       "pts": 5
-     },
-     {
-      "name": "Marco Stoeckli Odermatt",
-      "nat": "SUI",
-      "pts": 4
-     },
-     {
-      "name": "Stefan Fischer Brennsteiner",
-      "nat": "AUT",
-      "pts": 3
-     },
-     {
-      "name": "Loic Rossignol Meillard",
-      "nat": "SUI",
-      "pts": 2
-     },
-     {
-      "name": "Lucas Atomic Pinheiro Braathen",
-      "nat": "BRA",
-      "pts": 1
      }
     ],
     "OVR": [
      {
-      "name": "Anton Head Grammel",
-      "nat": "GER",
+      "name": "Lucas Atomic Pinheiro Braathen",
+      "nat": "BRA",
       "pts": 100
      },
      {
-      "name": "Rasmus Atomic Bakkevig",
-      "nat": "NOR",
+      "name": "Loic Rossignol Meillard",
+      "nat": "SUI",
       "pts": 80
      },
      {
-      "name": "Alban Rossignol Elezi Cannaferina",
-      "nat": "FRA",
+      "name": "Marco Stoeckli Odermatt",
+      "nat": "SUI",
       "pts": 60
-     },
-     {
-      "name": "Lenz Stoeckli Haechler",
-      "nat": "SUI",
-      "pts": 50
-     },
-     {
-      "name": "Eduard Fischer Hallberg",
-      "nat": "FIN",
-      "pts": 45
-     },
-     {
-      "name": "Thomas Stoeckli Tumler",
-      "nat": "SUI",
-      "pts": 40
-     },
-     {
-      "name": "Zan Nordica Kranjec",
-      "nat": "SLO",
-      "pts": 36
-     },
-     {
-      "name": "Leo Rossignol Anguenot",
-      "nat": "FRA",
-      "pts": 32
-     },
-     {
-      "name": "Hans Van Deer Grahl-Madsen",
-      "nat": "NOR",
-      "pts": 29
-     },
-     {
-      "name": "Freddy Dynastar Carrick-Smith",
-      "nat": "GBR",
-      "pts": 26
-     },
-     {
-      "name": "Raphael Atomic Haaser",
-      "nat": "AUT",
-      "pts": 24
-     },
-     {
-      "name": "Giovanni Rossignol Franzoni",
-      "nat": "ITA",
-      "pts": 22
-     },
-     {
-      "name": "Oscar Andreas - Sandvik",
-      "nat": "NOR",
-      "pts": 20
-     },
-     {
-      "name": "Joshua Atomic Sturm",
-      "nat": "AUT",
-      "pts": 18
      },
      {
       "name": "River Rossignol Radamus",
       "nat": "USA",
-      "pts": 16
+      "pts": 50
      },
      {
-      "name": "Patrick Rossignol Feurstein",
+      "name": "Raphael Atomic Haaser",
       "nat": "AUT",
-      "pts": 15
+      "pts": 45
+     },
+     {
+      "name": "Fabian Fischer Gratz",
+      "nat": "GER",
+      "pts": 40
      },
      {
       "name": "Alex Atomic Vinatzer",
       "nat": "ITA",
-      "pts": 14
+      "pts": 36
      },
      {
       "name": "Eirik Hystad Van Deer Solberg",
       "nat": "NOR",
+      "pts": 32
+     },
+     {
+      "name": "Leo Rossignol Anguenot",
+      "nat": "FRA",
+      "pts": 29
+     },
+     {
+      "name": "Patrick Rossignol Feurstein",
+      "nat": "AUT",
+      "pts": 26
+     },
+     {
+      "name": "Stefan Fischer Brennsteiner",
+      "nat": "AUT",
+      "pts": 24
+     },
+     {
+      "name": "Freddy Dynastar Carrick-Smith",
+      "nat": "GBR",
+      "pts": 22
+     },
+     {
+      "name": "Thibaut Dynastar Favrot",
+      "nat": "FRA",
+      "pts": 20
+     },
+     {
+      "name": "Rasmus Atomic Bakkevig",
+      "nat": "NOR",
+      "pts": 18
+     },
+     {
+      "name": "Anton Head Grammel",
+      "nat": "GER",
+      "pts": 16
+     },
+     {
+      "name": "Eduard Fischer Hallberg",
+      "nat": "FIN",
+      "pts": 15
+     },
+     {
+      "name": "Joshua Atomic Sturm",
+      "nat": "AUT",
+      "pts": 14
+     },
+     {
+      "name": "Zan Nordica Kranjec",
+      "nat": "SLO",
       "pts": 13
      },
      {
@@ -2095,54 +2075,34 @@
       "pts": 11
      },
      {
-      "name": "Thibaut Dynastar Favrot",
-      "nat": "FRA",
-      "pts": 10
-     },
-     {
       "name": "Alexander Head Schmid",
       "nat": "GER",
-      "pts": 9
-     },
-     {
-      "name": "Giovanni Rossignol Borsotti",
-      "nat": "ITA",
-      "pts": 8
+      "pts": 10
      },
      {
       "name": "Henrik Head Kristoffersen",
       "nat": "NOR",
+      "pts": 9
+     },
+     {
+      "name": "Thomas Stoeckli Tumler",
+      "nat": "SUI",
+      "pts": 8
+     },
+     {
+      "name": "Alban Rossignol Elezi Cannaferina",
+      "nat": "FRA",
       "pts": 7
      },
      {
-      "name": "Fabian Fischer Gratz",
-      "nat": "GER",
+      "name": "Lenz Stoeckli Haechler",
+      "nat": "SUI",
       "pts": 6
      },
      {
-      "name": "Atle Lie Head McGrath",
+      "name": "Hans Van Deer Grahl-Madsen",
       "nat": "NOR",
       "pts": 5
-     },
-     {
-      "name": "Marco Stoeckli Odermatt",
-      "nat": "SUI",
-      "pts": 4
-     },
-     {
-      "name": "Stefan Fischer Brennsteiner",
-      "nat": "AUT",
-      "pts": 3
-     },
-     {
-      "name": "Loic Rossignol Meillard",
-      "nat": "SUI",
-      "pts": 2
-     },
-     {
-      "name": "Lucas Atomic Pinheiro Braathen",
-      "nat": "BRA",
-      "pts": 1
      }
     ]
    }
@@ -4875,68 +4835,28 @@
   ],
   "M": [
    [
-    "Anton Head Grammel",
-    "GER"
+    "Lucas Atomic Pinheiro Braathen",
+    "BRA"
    ],
    [
-    "Rasmus Atomic Bakkevig",
-    "NOR"
-   ],
-   [
-    "Alban Rossignol Elezi Cannaferina",
-    "FRA"
-   ],
-   [
-    "Lenz Stoeckli Haechler",
+    "Loic Rossignol Meillard",
     "SUI"
    ],
    [
-    "Eduard Fischer Hallberg",
-    "FIN"
-   ],
-   [
-    "Thomas Stoeckli Tumler",
+    "Marco Stoeckli Odermatt",
     "SUI"
-   ],
-   [
-    "Zan Nordica Kranjec",
-    "SLO"
-   ],
-   [
-    "Leo Rossignol Anguenot",
-    "FRA"
-   ],
-   [
-    "Hans Van Deer Grahl-Madsen",
-    "NOR"
-   ],
-   [
-    "Freddy Dynastar Carrick-Smith",
-    "GBR"
-   ],
-   [
-    "Raphael Atomic Haaser",
-    "AUT"
-   ],
-   [
-    "Giovanni Rossignol Franzoni",
-    "ITA"
-   ],
-   [
-    "Oscar Andreas - Sandvik",
-    "NOR"
-   ],
-   [
-    "Joshua Atomic Sturm",
-    "AUT"
    ],
    [
     "River Rossignol Radamus",
     "USA"
    ],
    [
-    "Patrick Rossignol Feurstein",
+    "Raphael Atomic Haaser",
     "AUT"
+   ],
+   [
+    "Fabian Fischer Gratz",
+    "GER"
    ],
    [
     "Alex Atomic Vinatzer",
@@ -4947,6 +4867,46 @@
     "NOR"
    ],
    [
+    "Leo Rossignol Anguenot",
+    "FRA"
+   ],
+   [
+    "Patrick Rossignol Feurstein",
+    "AUT"
+   ],
+   [
+    "Stefan Fischer Brennsteiner",
+    "AUT"
+   ],
+   [
+    "Freddy Dynastar Carrick-Smith",
+    "GBR"
+   ],
+   [
+    "Thibaut Dynastar Favrot",
+    "FRA"
+   ],
+   [
+    "Rasmus Atomic Bakkevig",
+    "NOR"
+   ],
+   [
+    "Anton Head Grammel",
+    "GER"
+   ],
+   [
+    "Eduard Fischer Hallberg",
+    "FIN"
+   ],
+   [
+    "Joshua Atomic Sturm",
+    "AUT"
+   ],
+   [
+    "Zan Nordica Kranjec",
+    "SLO"
+   ],
+   [
     "Filip Nordica Zubcic",
     "CRO"
    ],
@@ -4955,44 +4915,28 @@
     "BEL"
    ],
    [
-    "Thibaut Dynastar Favrot",
-    "FRA"
-   ],
-   [
     "Alexander Head Schmid",
     "GER"
-   ],
-   [
-    "Giovanni Rossignol Borsotti",
-    "ITA"
    ],
    [
     "Henrik Head Kristoffersen",
     "NOR"
    ],
    [
-    "Fabian Fischer Gratz",
-    "GER"
+    "Thomas Stoeckli Tumler",
+    "SUI"
    ],
    [
-    "Atle Lie Head McGrath",
+    "Alban Rossignol Elezi Cannaferina",
+    "FRA"
+   ],
+   [
+    "Lenz Stoeckli Haechler",
+    "SUI"
+   ],
+   [
+    "Hans Van Deer Grahl-Madsen",
     "NOR"
-   ],
-   [
-    "Marco Stoeckli Odermatt",
-    "SUI"
-   ],
-   [
-    "Stefan Fischer Brennsteiner",
-    "AUT"
-   ],
-   [
-    "Loic Rossignol Meillard",
-    "SUI"
-   ],
-   [
-    "Lucas Atomic Pinheiro Braathen",
-    "BRA"
    ],
    [
     "Marco Odermatt",
