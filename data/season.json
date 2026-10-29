@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T09:12:00.525Z",
+ "updated": "2026-10-29T11:07:07.633Z",
  "season": 2027,
  "races": [
   {
@@ -1357,6 +1357,40 @@
    "wm": false,
    "kind": "Women's Slalom",
    "venue": "W-SL-soldeu",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131683",
+   "raceid": "131683",
+   "gender": "W",
+   "disc": "DH",
+   "place": "Kvitfjell",
+   "nation": "NOR",
+   "date": "2027-03-12",
+   "start": "2027-03-12T10:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "kind": "Women's Downhill",
+   "venue": "W-DH-kvitfjell",
+   "status": "scheduled",
+   "podium": null,
+   "podiumNat": null
+  },
+  {
+   "id": "131684",
+   "raceid": "131684",
+   "gender": "W",
+   "disc": "SG",
+   "place": "Kvitfjell",
+   "nation": "NOR",
+   "date": "2027-03-13",
+   "start": "2027-03-13T10:00:00.000Z",
+   "timeKnown": true,
+   "wm": false,
+   "kind": "Women's Super G",
+   "venue": "W-SG-kvitfjell",
    "status": "scheduled",
    "podium": null,
    "podiumNat": null
