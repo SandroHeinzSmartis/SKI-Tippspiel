@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T05:12:43.370Z",
+ "updated": "2026-11-03T07:30:06.387Z",
  "season": 2027,
  "races": [
   {
@@ -315,7 +315,7 @@
    "place": "Beaver Creek",
    "nation": "USA",
    "date": "2026-12-12",
-   "start": "2026-12-12T17:00:00.000Z",
+   "start": "2026-12-12T18:00:00.000Z",
    "timeKnown": true,
    "wm": false,
    "kind": "Women's Downhill",
