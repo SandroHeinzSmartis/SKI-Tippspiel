@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T03:08:52.613Z",
+ "updated": "2026-11-04T05:17:25.152Z",
  "season": 2027,
  "races": [
   {
@@ -1029,7 +1029,7 @@
    "place": "Crans Montana",
    "nation": "SUI",
    "date": "2027-02-04",
-   "start": "2027-02-04T10:30:00.000Z",
+   "start": "2027-02-04T10:15:00.000Z",
    "timeKnown": true,
    "wm": true,
    "kind": "Women's Super G",
@@ -1046,7 +1046,7 @@
    "place": "Crans Montana",
    "nation": "SUI",
    "date": "2027-02-05",
-   "start": "2027-02-05T10:30:00.000Z",
+   "start": "2027-02-05T10:15:00.000Z",
    "timeKnown": true,
    "wm": true,
    "kind": "Men's Super G",
@@ -1063,7 +1063,7 @@
    "place": "Crans Montana",
    "nation": "SUI",
    "date": "2027-02-06",
-   "start": "2027-02-06T10:30:00.000Z",
+   "start": "2027-02-06T10:15:00.000Z",
    "timeKnown": true,
    "wm": true,
    "kind": "Women's Downhill",
@@ -1080,7 +1080,7 @@
    "place": "Crans Montana",
    "nation": "SUI",
    "date": "2027-02-07",
-   "start": "2027-02-07T10:30:00.000Z",
+   "start": "2027-02-07T10:15:00.000Z",
    "timeKnown": true,
    "wm": true,
    "kind": "Men's Downhill",
