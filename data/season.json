@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:34:29.299Z",
+ "updated": "2026-11-15T17:20:09.717Z",
  "season": 2027,
  "races": [
   {
@@ -92,13 +92,13 @@
    "venue": "M-SL-levi",
    "status": "done",
    "podium": [
+    "Lucas Atomic Pinheiro Braathen",
     "Clement Dynastar Noel",
-    "Timon Van Deer Haugan",
     "Loic Rossignol Meillard"
    ],
    "podiumNat": [
+    "BRA",
     "FRA",
-    "NOR",
     "SUI"
    ]
   },
@@ -2212,23 +2212,23 @@
     ],
     "OVR": [
      {
+      "name": "Lucas Atomic Pinheiro Braathen",
+      "nat": "BRA",
+      "pts": 200
+     },
+     {
       "name": "Loic Rossignol Meillard",
       "nat": "SUI",
       "pts": 140
      },
      {
-      "name": "Lucas Atomic Pinheiro Braathen",
-      "nat": "BRA",
-      "pts": 136
+      "name": "Alex Atomic Vinatzer",
+      "nat": "ITA",
+      "pts": 81
      },
      {
       "name": "Clement Dynastar Noel",
       "nat": "FRA",
-      "pts": 100
-     },
-     {
-      "name": "Timon Van Deer Haugan",
-      "nat": "NOR",
       "pts": 80
      },
      {
@@ -2237,28 +2237,13 @@
       "pts": 60
      },
      {
-      "name": "Eirik Hystad Van Deer Solberg",
-      "nat": "NOR",
-      "pts": 56
-     },
-     {
-      "name": "Henrik Head Kristoffersen",
-      "nat": "NOR",
-      "pts": 54
-     },
-     {
       "name": "River Rossignol Radamus",
       "nat": "USA",
       "pts": 50
      },
      {
-      "name": "Alex Atomic Vinatzer",
-      "nat": "ITA",
-      "pts": 50
-     },
-     {
-      "name": "Atle Lie Head McGrath",
-      "nat": "NOR",
+      "name": "Fabian Van Deer Ax Swartz",
+      "nat": "SWE",
       "pts": 50
      },
      {
@@ -2282,13 +2267,23 @@
       "pts": 40
      },
      {
+      "name": "Atle Lie Head McGrath",
+      "nat": "NOR",
+      "pts": 36
+     },
+     {
+      "name": "Eirik Hystad Van Deer Solberg",
+      "nat": "NOR",
+      "pts": 32
+     },
+     {
       "name": "Leo Rossignol Anguenot",
       "nat": "FRA",
       "pts": 29
      },
      {
-      "name": "Michael Blizzard Matt",
-      "nat": "AUT",
+      "name": "Samuel Rossignol Kolega",
+      "nat": "CRO",
       "pts": 29
      },
      {
@@ -2297,8 +2292,8 @@
       "pts": 26
      },
      {
-      "name": "Tanguy Atomic Nef",
-      "nat": "SUI",
+      "name": "Albert Nordica Popov",
+      "nat": "BUL",
       "pts": 26
      },
      {
@@ -2307,14 +2302,24 @@
       "pts": 24
      },
      {
+      "name": "Oscar Andreas Rossignol Sandvik",
+      "nat": "NOR",
+      "pts": 24
+     },
+     {
       "name": "Freddy Dynastar Carrick-Smith",
       "nat": "GBR",
       "pts": 22
      },
      {
-      "name": "Linus Head Strasser",
-      "nat": "GER",
+      "name": "Tanguy Atomic Nef",
+      "nat": "SUI",
       "pts": 22
+     },
+     {
+      "name": "Henrik Head Kristoffersen",
+      "nat": "NOR",
+      "pts": 21
      },
      {
       "name": "Thibaut Dynastar Favrot",
@@ -2322,8 +2327,8 @@
       "pts": 20
      },
      {
-      "name": "Armand Head Marchant",
-      "nat": "BEL",
+      "name": "Linus Head Strasser",
+      "nat": "GER",
       "pts": 20
      },
      {
@@ -2332,19 +2337,9 @@
       "pts": 18
      },
      {
-      "name": "Joshua Atomic Sturm",
-      "nat": "AUT",
+      "name": "Shiro Atomic Aihara",
+      "nat": "JPN",
       "pts": 18
-     },
-     {
-      "name": "Victor Salomon Muffat-Jeandet",
-      "nat": "FRA",
-      "pts": 18
-     },
-     {
-      "name": "Filip Nordica Zubcic",
-      "nat": "CRO",
-      "pts": 17
      },
      {
       "name": "Anton Head Grammel",
@@ -2352,14 +2347,24 @@
       "pts": 16
      },
      {
-      "name": "Fabio Atomic Gstrein",
-      "nat": "AUT",
+      "name": "Billy Head Major",
+      "nat": "GBR",
       "pts": 16
      },
      {
-      "name": "Steven Rossignol Amiez",
-      "nat": "FRA",
+      "name": "Daniel Atomic Yule",
+      "nat": "SUI",
       "pts": 15
+     },
+     {
+      "name": "Joshua Atomic Sturm",
+      "nat": "AUT",
+      "pts": 14
+     },
+     {
+      "name": "Gustav Atomic Wissting",
+      "nat": "SWE",
+      "pts": 14
      },
      {
       "name": "Zan Nordica Kranjec",
@@ -2367,13 +2372,13 @@
       "pts": 13
      },
      {
-      "name": "Daniel Atomic Yule",
-      "nat": "SUI",
+      "name": "Timon Van Deer Haugan",
+      "nat": "NOR",
       "pts": 13
      },
      {
-      "name": "Laurie Head Taylor",
-      "nat": "GBR",
+      "name": "Filip Nordica Zubcic",
+      "nat": "CRO",
       "pts": 12
      },
      {
@@ -2382,8 +2387,8 @@
       "pts": 11
      },
      {
-      "name": "Albert Nordica Popov",
-      "nat": "BUL",
+      "name": "Auguste Salomon Aulnette",
+      "nat": "FRA",
       "pts": 11
      },
      {
@@ -2392,12 +2397,12 @@
       "pts": 10
      },
      {
-      "name": "Oscar Andreas Rossignol Sandvik",
-      "nat": "NOR",
+      "name": "Liam Rossignol Wallace",
+      "nat": "CAN",
       "pts": 10
      },
      {
-      "name": "Dominik Fischer Raschner",
+      "name": "Johannes Head Strolz",
       "nat": "AUT",
       "pts": 9
      },
@@ -2405,22 +2410,17 @@
       "name": "Thomas Stoeckli Tumler",
       "nat": "SUI",
       "pts": 8
-     },
-     {
-      "name": "Hans Van Deer Grahl-Madsen",
-      "nat": "NOR",
-      "pts": 8
      }
     ],
     "SL": [
      {
-      "name": "Clement Dynastar Noel",
-      "nat": "FRA",
+      "name": "Lucas Atomic Pinheiro Braathen",
+      "nat": "BRA",
       "pts": 100
      },
      {
-      "name": "Timon Van Deer Haugan",
-      "nat": "NOR",
+      "name": "Clement Dynastar Noel",
+      "nat": "FRA",
       "pts": 80
      },
      {
@@ -2429,13 +2429,13 @@
       "pts": 60
      },
      {
-      "name": "Atle Lie Head McGrath",
-      "nat": "NOR",
+      "name": "Fabian Van Deer Ax Swartz",
+      "nat": "SWE",
       "pts": 50
      },
      {
-      "name": "Henrik Head Kristoffersen",
-      "nat": "NOR",
+      "name": "Alex Atomic Vinatzer",
+      "nat": "ITA",
       "pts": 45
      },
      {
@@ -2444,8 +2444,8 @@
       "pts": 40
      },
      {
-      "name": "Lucas Atomic Pinheiro Braathen",
-      "nat": "BRA",
+      "name": "Atle Lie Head McGrath",
+      "nat": "NOR",
       "pts": 36
      },
      {
@@ -2454,114 +2454,74 @@
       "pts": 32
      },
      {
-      "name": "Michael Blizzard Matt",
-      "nat": "AUT",
+      "name": "Samuel Rossignol Kolega",
+      "nat": "CRO",
       "pts": 29
-     },
-     {
-      "name": "Tanguy Atomic Nef",
-      "nat": "SUI",
-      "pts": 26
-     },
-     {
-      "name": "Eirik Hystad Van Deer Solberg",
-      "nat": "NOR",
-      "pts": 24
-     },
-     {
-      "name": "Linus Head Strasser",
-      "nat": "GER",
-      "pts": 22
-     },
-     {
-      "name": "Armand Head Marchant",
-      "nat": "BEL",
-      "pts": 20
-     },
-     {
-      "name": "Victor Salomon Muffat-Jeandet",
-      "nat": "FRA",
-      "pts": 18
-     },
-     {
-      "name": "Fabio Atomic Gstrein",
-      "nat": "AUT",
-      "pts": 16
-     },
-     {
-      "name": "Steven Rossignol Amiez",
-      "nat": "FRA",
-      "pts": 15
-     },
-     {
-      "name": "Alex Atomic Vinatzer",
-      "nat": "ITA",
-      "pts": 14
-     },
-     {
-      "name": "Daniel Atomic Yule",
-      "nat": "SUI",
-      "pts": 13
-     },
-     {
-      "name": "Laurie Head Taylor",
-      "nat": "GBR",
-      "pts": 12
      },
      {
       "name": "Albert Nordica Popov",
       "nat": "BUL",
-      "pts": 11
+      "pts": 26
      },
      {
       "name": "Oscar Andreas Rossignol Sandvik",
       "nat": "NOR",
-      "pts": 10
+      "pts": 24
      },
      {
-      "name": "Dominik Fischer Raschner",
-      "nat": "AUT",
-      "pts": 9
-     },
-     {
-      "name": "Samuel Rossignol Kolega",
-      "nat": "CRO",
-      "pts": 8
-     },
-     {
-      "name": "Matthias Head Iten",
+      "name": "Tanguy Atomic Nef",
       "nat": "SUI",
-      "pts": 7
+      "pts": 22
      },
      {
-      "name": "Fabian Van Deer Ax Swartz",
+      "name": "Linus Head Strasser",
+      "nat": "GER",
+      "pts": 20
+     },
+     {
+      "name": "Shiro Atomic Aihara",
+      "nat": "JPN",
+      "pts": 18
+     },
+     {
+      "name": "Billy Head Major",
+      "nat": "GBR",
+      "pts": 16
+     },
+     {
+      "name": "Daniel Atomic Yule",
+      "nat": "SUI",
+      "pts": 15
+     },
+     {
+      "name": "Gustav Atomic Wissting",
       "nat": "SWE",
-      "pts": 6
+      "pts": 14
      },
      {
-      "name": "Filip Nordica Zubcic",
-      "nat": "CRO",
-      "pts": 5
-     },
-     {
-      "name": "Joshua Atomic Sturm",
-      "nat": "AUT",
-      "pts": 4
-     },
-     {
-      "name": "Hans Van Deer Grahl-Madsen",
+      "name": "Timon Van Deer Haugan",
       "nat": "NOR",
-      "pts": 3
+      "pts": 13
+     },
+     {
+      "name": "Henrik Head Kristoffersen",
+      "nat": "NOR",
+      "pts": 12
+     },
+     {
+      "name": "Auguste Salomon Aulnette",
+      "nat": "FRA",
+      "pts": 11
+     },
+     {
+      "name": "Liam Rossignol Wallace",
+      "nat": "CAN",
+      "pts": 10
      },
      {
       "name": "Johannes Head Strolz",
       "nat": "AUT",
-      "pts": 2
-     },
-     {
-      "name": "Benjamin Head Ritchie",
-      "nat": "USA",
-      "pts": 1
+      "pts": 9
      }
     ]
    }
@@ -5458,52 +5418,20 @@
     "FRA"
    ],
    [
-    "Timon Van Deer Haugan",
-    "NOR"
-   ],
-   [
-    "Atle Lie Head McGrath",
-    "NOR"
+    "Fabian Van Deer Ax Swartz",
+    "SWE"
    ],
    [
     "Paco Head Rassat",
     "FRA"
    ],
    [
-    "Michael Blizzard Matt",
-    "AUT"
+    "Atle Lie Head McGrath",
+    "NOR"
    ],
    [
-    "Tanguy Atomic Nef",
-    "SUI"
-   ],
-   [
-    "Linus Head Strasser",
-    "GER"
-   ],
-   [
-    "Armand Head Marchant",
-    "BEL"
-   ],
-   [
-    "Victor Salomon Muffat-Jeandet",
-    "FRA"
-   ],
-   [
-    "Fabio Atomic Gstrein",
-    "AUT"
-   ],
-   [
-    "Steven Rossignol Amiez",
-    "FRA"
-   ],
-   [
-    "Daniel Atomic Yule",
-    "SUI"
-   ],
-   [
-    "Laurie Head Taylor",
-    "GBR"
+    "Samuel Rossignol Kolega",
+    "CRO"
    ],
    [
     "Albert Nordica Popov",
@@ -5514,28 +5442,44 @@
     "NOR"
    ],
    [
-    "Dominik Fischer Raschner",
-    "AUT"
-   ],
-   [
-    "Samuel Rossignol Kolega",
-    "CRO"
-   ],
-   [
-    "Matthias Head Iten",
+    "Tanguy Atomic Nef",
     "SUI"
    ],
    [
-    "Fabian Van Deer Ax Swartz",
+    "Linus Head Strasser",
+    "GER"
+   ],
+   [
+    "Shiro Atomic Aihara",
+    "JPN"
+   ],
+   [
+    "Billy Head Major",
+    "GBR"
+   ],
+   [
+    "Daniel Atomic Yule",
+    "SUI"
+   ],
+   [
+    "Gustav Atomic Wissting",
     "SWE"
+   ],
+   [
+    "Timon Van Deer Haugan",
+    "NOR"
+   ],
+   [
+    "Auguste Salomon Aulnette",
+    "FRA"
+   ],
+   [
+    "Liam Rossignol Wallace",
+    "CAN"
    ],
    [
     "Johannes Head Strolz",
     "AUT"
-   ],
-   [
-    "Benjamin Head Ritchie",
-    "USA"
    ],
    [
     "Marco Odermatt",
