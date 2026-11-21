@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T12:49:42.938Z",
+ "updated": "2026-11-21T20:43:38.512Z",
  "season": 2027,
  "races": [
   {
@@ -117,14 +117,14 @@
    "venue": "W-SL-gurgl",
    "status": "done",
    "podium": [
-    "Martina Kaestle Dubovska",
-    "Marie Rossignol Lamure",
-    "Charlotte Head Lingg"
+    "Lara Head Colturi",
+    "Sara Head Hector",
+    "Anna Head Swenn Larsson"
    ],
    "podiumNat": [
-    "CZE",
-    "FRA",
-    "LIE"
+    "ALB",
+    "SWE",
+    "SWE"
    ]
   },
   {
@@ -140,9 +140,17 @@
    "wm": false,
    "kind": "Men's Slalom",
    "venue": "M-SL-gurgl",
-   "status": "scheduled",
-   "podium": null,
-   "podiumNat": null
+   "status": "done",
+   "podium": [
+    "Atle Lie Head McGrath",
+    "Clement Dynastar Noel",
+    "Lucas Atomic Pinheiro Braathen"
+   ],
+   "podiumNat": [
+    "NOR",
+    "FRA",
+    "BRA"
+   ]
   },
   {
    "id": "131583",
@@ -1747,74 +1755,69 @@
     ],
     "OVR": [
      {
-      "name": "Emma Head Aicher",
-      "nat": "GER",
-      "pts": 173
-     },
-     {
       "name": "Lara Head Colturi",
       "nat": "ALB",
-      "pts": 162
+      "pts": 260
      },
      {
-      "name": "Marie Rossignol Lamure",
-      "nat": "FRA",
-      "pts": 116
-     },
-     {
-      "name": "Paula Van Deer Moltzan",
-      "nat": "USA",
-      "pts": 111
-     },
-     {
-      "name": "Martina Kaestle Dubovska",
-      "nat": "CZE",
-      "pts": 100
-     },
-     {
-      "name": "Camille Head Rast",
-      "nat": "SUI",
-      "pts": 84
-     },
-     {
-      "name": "Zrinka Atomic Ljutic",
-      "nat": "CRO",
-      "pts": 83
-     },
-     {
-      "name": "Katharina Voelkl Truppe",
-      "nat": "AUT",
-      "pts": 82
+      "name": "Emma Head Aicher",
+      "nat": "GER",
+      "pts": 192
      },
      {
       "name": "Sara Head Hector",
       "nat": "SWE",
-      "pts": 77
+      "pts": 150
      },
      {
-      "name": "Charlotte Head Lingg",
-      "nat": "LIE",
-      "pts": 70
-     },
-     {
-      "name": "Nina Rossignol O'Brien",
+      "name": "Paula Van Deer Moltzan",
       "nat": "USA",
-      "pts": 55
+      "pts": 120
      },
      {
-      "name": "Marion Atomic Chevrier",
-      "nat": "FRA",
-      "pts": 50
+      "name": "Zrinka Atomic Ljutic",
+      "nat": "CRO",
+      "pts": 110
      },
      {
-      "name": "Liv Fischer Moritz",
-      "nat": "USA",
-      "pts": 50
+      "name": "Camille Head Rast",
+      "nat": "SUI",
+      "pts": 109
      },
      {
       "name": "Anna Head Swenn Larsson",
       "nat": "SWE",
-      "pts": 46
+      "pts": 105
+     },
+     {
+      "name": "Head Hurt A J",
+      "nat": "USA",
+      "pts": 86
+     },
+     {
+      "name": "Marion Atomic Chevrier",
+      "nat": "FRA",
+      "pts": 64
+     },
+     {
+      "name": "Hanna Rossignol Aronsson Elfman",
+      "nat": "SWE",
+      "pts": 61
+     },
+     {
+      "name": "Katharina Voelkl Truppe",
+      "nat": "AUT",
+      "pts": 60
+     },
+     {
+      "name": "Lara Fischer Della Mea",
+      "nat": "ITA",
+      "pts": 53
+     },
+     {
+      "name": "Dzenifera Head Germane",
+      "nat": "LAT",
+      "pts": 48
      },
      {
       "name": "Asja Salomon Zenere",
@@ -1822,19 +1825,14 @@
       "pts": 45
      },
      {
-      "name": "Katie Rossignol Hensien",
-      "nat": "USA",
-      "pts": 45
-     },
-     {
-      "name": "Neja Rossignol Dvornik",
-      "nat": "SLO",
+      "name": "Lena Head Duerr",
+      "nat": "GER",
       "pts": 44
      },
      {
-      "name": "Head Hurt A J",
-      "nat": "USA",
-      "pts": 42
+      "name": "Marie Rossignol Lamure",
+      "nat": "FRA",
+      "pts": 43
      },
      {
       "name": "Wendy Head Holdener",
@@ -1844,21 +1842,6 @@
      {
       "name": "Mikaela Atomic Shiffrin",
       "nat": "USA",
-      "pts": 36
-     },
-     {
-      "name": "Lena Head Duerr",
-      "nat": "GER",
-      "pts": 36
-     },
-     {
-      "name": "Aline Head Hoepli",
-      "nat": "SUI",
-      "pts": 36
-     },
-     {
-      "name": "Natalie Rossignol Falch",
-      "nat": "AUT",
       "pts": 36
      },
      {
@@ -1877,9 +1860,9 @@
       "pts": 32
      },
      {
-      "name": "Giulia Rossignol Valleriani",
-      "nat": "ITA",
-      "pts": 32
+      "name": "Aline Head Hoepli",
+      "nat": "SUI",
+      "pts": 30
      },
      {
       "name": "Maryna Atomic Gasienica-Daniel",
@@ -1892,28 +1875,18 @@
       "pts": 29
      },
      {
-      "name": "Lara Fischer Della Mea",
-      "nat": "ITA",
-      "pts": 27
-     },
-     {
-      "name": "Dzenifera Head Germane",
-      "nat": "LAT",
-      "pts": 26
-     },
-     {
-      "name": "Nika Head Tomsic",
+      "name": "Neja Rossignol Dvornik",
       "nat": "SLO",
-      "pts": 26
-     },
-     {
-      "name": "Selina Rossignol Egloff",
-      "nat": "SUI",
-      "pts": 24
+      "pts": 28
      },
      {
       "name": "Petra Rossignol Vlhova",
       "nat": "SVK",
+      "pts": 23
+     },
+     {
+      "name": "Caitlin Rossignol McFarlane",
+      "nat": "FRA",
       "pts": 23
      },
      {
@@ -1922,9 +1895,9 @@
       "pts": 22
      },
      {
-      "name": "Hanna Rossignol Aronsson Elfman",
-      "nat": "SWE",
-      "pts": 21
+      "name": "Charlotte Head Lingg",
+      "nat": "LIE",
+      "pts": 19
      },
      {
       "name": "Elisabeth Rossignol Bocock",
@@ -1937,96 +1910,121 @@
       "pts": 16
      },
      {
-      "name": "Emilia Salomon Mondinelli",
-      "nat": "ITA",
+      "name": "Selina Rossignol Egloff",
+      "nat": "SUI",
       "pts": 16
+     },
+     {
+      "name": "Nina Rossignol O'Brien",
+      "nat": "USA",
+      "pts": 15
      },
      {
       "name": "Mina Fuerst Atomic Holtmann",
       "nat": "NOR",
       "pts": 15
-     }
-    ],
-    "SL": [
-     {
-      "name": "Marie Rossignol Lamure",
-      "nat": "FRA",
-      "pts": 116
-     },
-     {
-      "name": "Emma Head Aicher",
-      "nat": "GER",
-      "pts": 113
-     },
-     {
-      "name": "Martina Kaestle Dubovska",
-      "nat": "CZE",
-      "pts": 100
-     },
-     {
-      "name": "Lara Head Colturi",
-      "nat": "ALB",
-      "pts": 82
-     },
-     {
-      "name": "Katharina Voelkl Truppe",
-      "nat": "AUT",
-      "pts": 82
-     },
-     {
-      "name": "Charlotte Head Lingg",
-      "nat": "LIE",
-      "pts": 70
-     },
-     {
-      "name": "Zrinka Atomic Ljutic",
-      "nat": "CRO",
-      "pts": 59
-     },
-     {
-      "name": "Marion Atomic Chevrier",
-      "nat": "FRA",
-      "pts": 50
-     },
-     {
-      "name": "Liv Fischer Moritz",
-      "nat": "USA",
-      "pts": 50
-     },
-     {
-      "name": "Anna Head Swenn Larsson",
-      "nat": "SWE",
-      "pts": 46
      },
      {
       "name": "Katie Rossignol Hensien",
       "nat": "USA",
-      "pts": 45
+      "pts": 15
+     },
+     {
+      "name": "Eliane Head Christen",
+      "nat": "SUI",
+      "pts": 14
+     },
+     {
+      "name": "Beatrice Rossignol Sola",
+      "nat": "ITA",
+      "pts": 12
+     },
+     {
+      "name": "Thea Louise Rossignol Stjernesund",
+      "nat": "NOR",
+      "pts": 11
+     },
+     {
+      "name": "Martina Kaestle Dubovska",
+      "nat": "CZE",
+      "pts": 11
+     },
+     {
+      "name": "Cornelia Head Oehlund",
+      "nat": "SWE",
+      "pts": 10
+     }
+    ],
+    "SL": [
+     {
+      "name": "Lara Head Colturi",
+      "nat": "ALB",
+      "pts": 180
+     },
+     {
+      "name": "Emma Head Aicher",
+      "nat": "GER",
+      "pts": 132
+     },
+     {
+      "name": "Anna Head Swenn Larsson",
+      "nat": "SWE",
+      "pts": 105
+     },
+     {
+      "name": "Sara Head Hector",
+      "nat": "SWE",
+      "pts": 100
+     },
+     {
+      "name": "Zrinka Atomic Ljutic",
+      "nat": "CRO",
+      "pts": 86
      },
      {
       "name": "Camille Head Rast",
       "nat": "SUI",
-      "pts": 44
+      "pts": 69
      },
      {
-      "name": "Neja Rossignol Dvornik",
-      "nat": "SLO",
+      "name": "Head Hurt A J",
+      "nat": "USA",
+      "pts": 66
+     },
+     {
+      "name": "Marion Atomic Chevrier",
+      "nat": "FRA",
+      "pts": 64
+     },
+     {
+      "name": "Katharina Voelkl Truppe",
+      "nat": "AUT",
+      "pts": 60
+     },
+     {
+      "name": "Hanna Rossignol Aronsson Elfman",
+      "nat": "SWE",
+      "pts": 49
+     },
+     {
+      "name": "Dzenifera Head Germane",
+      "nat": "LAT",
+      "pts": 48
+     },
+     {
+      "name": "Marie Rossignol Lamure",
+      "nat": "FRA",
       "pts": 43
      },
      {
-      "name": "Nina Rossignol O'Brien",
-      "nat": "USA",
+      "name": "Lara Fischer Della Mea",
+      "nat": "ITA",
       "pts": 40
      },
      {
-      "name": "Aline Head Hoepli",
-      "nat": "SUI",
-      "pts": 36
-     },
-     {
-      "name": "Natalie Rossignol Falch",
-      "nat": "AUT",
-      "pts": 36
+      "name": "Lena Head Duerr",
+      "nat": "GER",
+      "pts": 35
      },
      {
       "name": "Madison Rossignol Hoffman",
@@ -2034,9 +2032,9 @@
       "pts": 32
      },
      {
-      "name": "Giulia Rossignol Valleriani",
-      "nat": "ITA",
-      "pts": 32
+      "name": "Aline Head Hoepli",
+      "nat": "SUI",
+      "pts": 30
      },
      {
       "name": "Katharina Voelkl Huber",
@@ -2044,13 +2042,8 @@
       "pts": 29
      },
      {
-      "name": "Sara Head Hector",
-      "nat": "SWE",
-      "pts": 27
-     },
-     {
-      "name": "Lena Head Duerr",
-      "nat": "GER",
+      "name": "Neja Rossignol Dvornik",
+      "nat": "SLO",
       "pts": 27
      },
      {
@@ -2059,28 +2052,23 @@
       "pts": 26
      },
      {
-      "name": "Dzenifera Head Germane",
-      "nat": "LAT",
-      "pts": 26
+      "name": "Caitlin Rossignol McFarlane",
+      "nat": "FRA",
+      "pts": 23
      },
      {
-      "name": "Nika Head Tomsic",
-      "nat": "SLO",
-      "pts": 26
+      "name": "Paula Van Deer Moltzan",
+      "nat": "USA",
+      "pts": 20
+     },
+     {
+      "name": "Charlotte Head Lingg",
+      "nat": "LIE",
+      "pts": 19
      },
      {
       "name": "Selina Rossignol Egloff",
       "nat": "SUI",
-      "pts": 24
-     },
-     {
-      "name": "Head Hurt A J",
-      "nat": "USA",
-      "pts": 22
-     },
-     {
-      "name": "Emilia Salomon Mondinelli",
-      "nat": "ITA",
       "pts": 16
      },
      {
@@ -2089,19 +2077,14 @@
       "pts": 15
      },
      {
-      "name": "Cornelia Head Oehlund",
-      "nat": "SWE",
+      "name": "Katie Rossignol Hensien",
+      "nat": "USA",
       "pts": 15
      },
      {
-      "name": "Lara Fischer Della Mea",
-      "nat": "ITA",
+      "name": "Eliane Head Christen",
+      "nat": "SUI",
       "pts": 14
-     },
-     {
-      "name": "Caitlin Rossignol McFarlane",
-      "nat": "FRA",
-      "pts": 13
      },
      {
       "name": "Beatrice Rossignol Sola",
@@ -2109,14 +2092,14 @@
       "pts": 12
      },
      {
-      "name": "Eliane Head Christen",
-      "nat": "SUI",
-      "pts": 12
+      "name": "Martina Kaestle Dubovska",
+      "nat": "CZE",
+      "pts": 11
      },
      {
-      "name": "Paula Van Deer Moltzan",
-      "nat": "USA",
-      "pts": 11
+      "name": "Cornelia Head Oehlund",
+      "nat": "SWE",
+      "pts": 10
      },
      {
       "name": "Laurence Rossignol St-Germain",
@@ -2124,13 +2107,13 @@
       "pts": 9
      },
      {
-      "name": "Hanna Rossignol Aronsson Elfman",
-      "nat": "SWE",
-      "pts": 9
-     },
-     {
       "name": "Valentina Rossignol Rings-Wanner",
       "nat": "AUT",
+      "pts": 8
+     },
+     {
+      "name": "Liv Fischer Moritz",
+      "nat": "USA",
       "pts": 8
      },
      {
@@ -2282,22 +2265,52 @@
      {
       "name": "Lucas Atomic Pinheiro Braathen",
       "nat": "BRA",
-      "pts": 200
+      "pts": 260
      },
      {
       "name": "Loic Rossignol Meillard",
       "nat": "SUI",
-      "pts": 140
-     },
-     {
-      "name": "Alex Atomic Vinatzer",
-      "nat": "ITA",
-      "pts": 81
+      "pts": 180
      },
      {
       "name": "Clement Dynastar Noel",
       "nat": "FRA",
-      "pts": 80
+      "pts": 160
+     },
+     {
+      "name": "Atle Lie Head McGrath",
+      "nat": "NOR",
+      "pts": 136
+     },
+     {
+      "name": "Alex Atomic Vinatzer",
+      "nat": "ITA",
+      "pts": 99
+     },
+     {
+      "name": "Paco Head Rassat",
+      "nat": "FRA",
+      "pts": 76
+     },
+     {
+      "name": "Eduard Fischer Hallberg",
+      "nat": "FIN",
+      "pts": 71
+     },
+     {
+      "name": "Henrik Head Kristoffersen",
+      "nat": "NOR",
+      "pts": 71
+     },
+     {
+      "name": "Fabian Van Deer Ax Swartz",
+      "nat": "SWE",
+      "pts": 62
+     },
+     {
+      "name": "Eirik Hystad Van Deer Solberg",
+      "nat": "NOR",
+      "pts": 61
      },
      {
       "name": "Marco Stoeckli Odermatt",
@@ -2305,19 +2318,19 @@
       "pts": 60
      },
      {
+      "name": "Timon Van Deer Haugan",
+      "nat": "NOR",
+      "pts": 58
+     },
+     {
+      "name": "Linus Head Strasser",
+      "nat": "GER",
+      "pts": 52
+     },
+     {
       "name": "River Rossignol Radamus",
       "nat": "USA",
       "pts": 50
-     },
-     {
-      "name": "Fabian Van Deer Ax Swartz",
-      "nat": "SWE",
-      "pts": 50
-     },
-     {
-      "name": "Eduard Fischer Hallberg",
-      "nat": "FIN",
-      "pts": 47
      },
      {
       "name": "Raphael Atomic Haaser",
@@ -2325,24 +2338,29 @@
       "pts": 45
      },
      {
+      "name": "Tanguy Atomic Nef",
+      "nat": "SUI",
+      "pts": 44
+     },
+     {
       "name": "Fabian Fischer Gratz",
       "nat": "GER",
       "pts": 40
      },
      {
-      "name": "Paco Head Rassat",
-      "nat": "FRA",
-      "pts": 40
+      "name": "Samuel Rossignol Kolega",
+      "nat": "CRO",
+      "pts": 39
      },
      {
-      "name": "Atle Lie Head McGrath",
-      "nat": "NOR",
-      "pts": 36
+      "name": "Albert Nordica Popov",
+      "nat": "BUL",
+      "pts": 37
      },
      {
-      "name": "Eirik Hystad Van Deer Solberg",
+      "name": "Oscar Andreas Rossignol Sandvik",
       "nat": "NOR",
-      "pts": 32
+      "pts": 33
      },
      {
       "name": "Leo Rossignol Anguenot",
@@ -2350,9 +2368,9 @@
       "pts": 29
      },
      {
-      "name": "Samuel Rossignol Kolega",
-      "nat": "CRO",
-      "pts": 29
+      "name": "Daniel Atomic Yule",
+      "nat": "SUI",
+      "pts": 28
      },
      {
       "name": "Patrick Rossignol Feurstein",
@@ -2360,8 +2378,8 @@
       "pts": 26
      },
      {
-      "name": "Albert Nordica Popov",
-      "nat": "BUL",
+      "name": "Armand Head Marchant",
+      "nat": "BEL",
       "pts": 26
      },
      {
@@ -2370,24 +2388,9 @@
       "pts": 24
      },
      {
-      "name": "Oscar Andreas Rossignol Sandvik",
-      "nat": "NOR",
-      "pts": 24
-     },
-     {
       "name": "Freddy Dynastar Carrick-Smith",
       "nat": "GBR",
       "pts": 22
-     },
-     {
-      "name": "Tanguy Atomic Nef",
-      "nat": "SUI",
-      "pts": 22
-     },
-     {
-      "name": "Henrik Head Kristoffersen",
-      "nat": "NOR",
-      "pts": 21
      },
      {
       "name": "Thibaut Dynastar Favrot",
@@ -2395,8 +2398,8 @@
       "pts": 20
      },
      {
-      "name": "Linus Head Strasser",
-      "nat": "GER",
+      "name": "Michael Blizzard Matt",
+      "nat": "AUT",
       "pts": 20
      },
      {
@@ -2405,9 +2408,24 @@
       "pts": 18
      },
      {
+      "name": "Joshua Atomic Sturm",
+      "nat": "AUT",
+      "pts": 18
+     },
+     {
       "name": "Shiro Atomic Aihara",
       "nat": "JPN",
       "pts": 18
+     },
+     {
+      "name": "Filip Nordica Zubcic",
+      "nat": "CRO",
+      "pts": 17
+     },
+     {
+      "name": "Billy Head Major",
+      "nat": "GBR",
+      "pts": 17
      },
      {
       "name": "Anton Head Grammel",
@@ -2415,23 +2433,23 @@
       "pts": 16
      },
      {
-      "name": "Billy Head Major",
-      "nat": "GBR",
+      "name": "Fabio Atomic Gstrein",
+      "nat": "AUT",
       "pts": 16
      },
      {
-      "name": "Daniel Atomic Yule",
-      "nat": "SUI",
+      "name": "Victor Salomon Muffat-Jeandet",
+      "nat": "FRA",
       "pts": 15
-     },
-     {
-      "name": "Joshua Atomic Sturm",
-      "nat": "AUT",
-      "pts": 14
      },
      {
       "name": "Gustav Atomic Wissting",
       "nat": "SWE",
+      "pts": 14
+     },
+     {
+      "name": "Steven Rossignol Amiez",
+      "nat": "FRA",
       "pts": 14
      },
      {
@@ -2440,110 +2458,105 @@
       "pts": 13
      },
      {
-      "name": "Timon Van Deer Haugan",
-      "nat": "NOR",
-      "pts": 13
-     },
-     {
-      "name": "Filip Nordica Zubcic",
-      "nat": "CRO",
-      "pts": 12
-     },
-     {
       "name": "Sam Voelkl Maes",
       "nat": "BEL",
       "pts": 11
-     },
-     {
-      "name": "Auguste Salomon Aulnette",
-      "nat": "FRA",
-      "pts": 11
-     },
-     {
-      "name": "Alexander Head Schmid",
-      "nat": "GER",
-      "pts": 10
-     },
-     {
-      "name": "Liam Rossignol Wallace",
-      "nat": "CAN",
-      "pts": 10
-     },
-     {
-      "name": "Johannes Head Strolz",
-      "nat": "AUT",
-      "pts": 9
-     },
-     {
-      "name": "Thomas Stoeckli Tumler",
-      "nat": "SUI",
-      "pts": 8
      }
     ],
     "SL": [
      {
       "name": "Lucas Atomic Pinheiro Braathen",
       "nat": "BRA",
-      "pts": 100
+      "pts": 160
      },
      {
       "name": "Clement Dynastar Noel",
       "nat": "FRA",
-      "pts": 80
-     },
-     {
-      "name": "Loic Rossignol Meillard",
-      "nat": "SUI",
-      "pts": 60
-     },
-     {
-      "name": "Fabian Van Deer Ax Swartz",
-      "nat": "SWE",
-      "pts": 50
-     },
-     {
-      "name": "Alex Atomic Vinatzer",
-      "nat": "ITA",
-      "pts": 45
-     },
-     {
-      "name": "Paco Head Rassat",
-      "nat": "FRA",
-      "pts": 40
+      "pts": 160
      },
      {
       "name": "Atle Lie Head McGrath",
       "nat": "NOR",
-      "pts": 36
+      "pts": 136
+     },
+     {
+      "name": "Loic Rossignol Meillard",
+      "nat": "SUI",
+      "pts": 100
+     },
+     {
+      "name": "Paco Head Rassat",
+      "nat": "FRA",
+      "pts": 76
+     },
+     {
+      "name": "Alex Atomic Vinatzer",
+      "nat": "ITA",
+      "pts": 63
+     },
+     {
+      "name": "Fabian Van Deer Ax Swartz",
+      "nat": "SWE",
+      "pts": 62
+     },
+     {
+      "name": "Henrik Head Kristoffersen",
+      "nat": "NOR",
+      "pts": 62
+     },
+     {
+      "name": "Timon Van Deer Haugan",
+      "nat": "NOR",
+      "pts": 58
      },
      {
       "name": "Eduard Fischer Hallberg",
       "nat": "FIN",
-      "pts": 32
-     },
-     {
-      "name": "Samuel Rossignol Kolega",
-      "nat": "CRO",
-      "pts": 29
-     },
-     {
-      "name": "Albert Nordica Popov",
-      "nat": "BUL",
-      "pts": 26
-     },
-     {
-      "name": "Oscar Andreas Rossignol Sandvik",
-      "nat": "NOR",
-      "pts": 24
-     },
-     {
-      "name": "Tanguy Atomic Nef",
-      "nat": "SUI",
-      "pts": 22
+      "pts": 56
      },
      {
       "name": "Linus Head Strasser",
       "nat": "GER",
+      "pts": 52
+     },
+     {
+      "name": "Tanguy Atomic Nef",
+      "nat": "SUI",
+      "pts": 44
+     },
+     {
+      "name": "Samuel Rossignol Kolega",
+      "nat": "CRO",
+      "pts": 39
+     },
+     {
+      "name": "Albert Nordica Popov",
+      "nat": "BUL",
+      "pts": 37
+     },
+     {
+      "name": "Oscar Andreas Rossignol Sandvik",
+      "nat": "NOR",
+      "pts": 33
+     },
+     {
+      "name": "Eirik Hystad Van Deer Solberg",
+      "nat": "NOR",
+      "pts": 29
+     },
+     {
+      "name": "Daniel Atomic Yule",
+      "nat": "SUI",
+      "pts": 28
+     },
+     {
+      "name": "Armand Head Marchant",
+      "nat": "BEL",
+      "pts": 26
+     },
+     {
+      "name": "Michael Blizzard Matt",
+      "nat": "AUT",
       "pts": 20
      },
      {
@@ -2554,11 +2567,16 @@
      {
       "name": "Billy Head Major",
       "nat": "GBR",
+      "pts": 17
+     },
+     {
+      "name": "Fabio Atomic Gstrein",
+      "nat": "AUT",
       "pts": 16
      },
      {
-      "name": "Daniel Atomic Yule",
-      "nat": "SUI",
+      "name": "Victor Salomon Muffat-Jeandet",
+      "nat": "FRA",
       "pts": 15
      },
      {
@@ -2567,18 +2585,18 @@
       "pts": 14
      },
      {
-      "name": "Timon Van Deer Haugan",
-      "nat": "NOR",
-      "pts": 13
-     },
-     {
-      "name": "Henrik Head Kristoffersen",
-      "nat": "NOR",
-      "pts": 12
+      "name": "Steven Rossignol Amiez",
+      "nat": "FRA",
+      "pts": 14
      },
      {
       "name": "Auguste Salomon Aulnette",
       "nat": "FRA",
+      "pts": 11
+     },
+     {
+      "name": "Johannes Head Strolz",
+      "nat": "AUT",
       "pts": 11
      },
      {
@@ -2587,9 +2605,34 @@
       "pts": 10
      },
      {
-      "name": "Johannes Head Strolz",
+      "name": "Laurie Head Taylor",
+      "nat": "GBR",
+      "pts": 8
+     },
+     {
+      "name": "Dominik Fischer Raschner",
       "nat": "AUT",
-      "pts": 9
+      "pts": 7
+     },
+     {
+      "name": "Matthias Head Iten",
+      "nat": "SUI",
+      "pts": 6
+     },
+     {
+      "name": "Filip Nordica Zubcic",
+      "nat": "CRO",
+      "pts": 5
+     },
+     {
+      "name": "Joshua Atomic Sturm",
+      "nat": "AUT",
+      "pts": 4
+     },
+     {
+      "name": "Hans Van Deer Grahl-Madsen",
+      "nat": "NOR",
+      "pts": 3
      }
     ]
    }
@@ -4800,44 +4843,28 @@
     "FRA"
    ],
    [
-    "Martina Kaestle Dubovska",
-    "CZE"
-   ],
-   [
-    "Liv Fischer Moritz",
-    "USA"
+    "Selina Rossignol Egloff",
+    "SUI"
    ],
    [
     "Katie Rossignol Hensien",
     "USA"
    ],
    [
-    "Natalie Rossignol Falch",
-    "AUT"
-   ],
-   [
-    "Giulia Rossignol Valleriani",
-    "ITA"
-   ],
-   [
-    "Nika Head Tomsic",
-    "SLO"
-   ],
-   [
-    "Selina Rossignol Egloff",
+    "Eliane Head Christen",
     "SUI"
    ],
    [
-    "Emilia Salomon Mondinelli",
-    "ITA"
+    "Martina Kaestle Dubovska",
+    "CZE"
    ],
    [
     "Cornelia Head Oehlund",
     "SWE"
    ],
    [
-    "Eliane Head Christen",
-    "SUI"
+    "Liv Fischer Moritz",
+    "USA"
    ],
    [
     "Julia Scheib",
@@ -5588,6 +5615,38 @@
    [
     "Johannes Head Strolz",
     "AUT"
+   ],
+   [
+    "Armand Head Marchant",
+    "BEL"
+   ],
+   [
+    "Michael Blizzard Matt",
+    "AUT"
+   ],
+   [
+    "Fabio Atomic Gstrein",
+    "AUT"
+   ],
+   [
+    "Victor Salomon Muffat-Jeandet",
+    "FRA"
+   ],
+   [
+    "Steven Rossignol Amiez",
+    "FRA"
+   ],
+   [
+    "Laurie Head Taylor",
+    "GBR"
+   ],
+   [
+    "Dominik Fischer Raschner",
+    "AUT"
+   ],
+   [
+    "Matthias Head Iten",
+    "SUI"
    ],
    [
     "Marco Odermatt",
